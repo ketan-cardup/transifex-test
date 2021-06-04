@@ -1,0 +1,22 @@
+en:
+  errors:
+    messages:
+      invalid_date: "is not a valid date"
+      is_at: "must be at %{restriction}"
+  validates_timeliness:
+    error_value_formats:
+      time: '%H:%M:%S'
+      datetime: '%Y-%m-%d %H:%M:%S'
+  government_letter:
+    front:
+      level_1:
+        level_2:
+          sg_card_for_extend_info_text_html: "The Extend feature is only available for cards issued in Singapore.<br>Please <b>re-select your card.</b>"
+          personal: "https://www.cardup.co/homes/personalfees"
+          placeholder: DD / MM / YYYY
+          mail_to: mailto:hello@cardup.co
+          cardup_address: "CARDUP PTE. LTD.<br/>
+                        1 Keong Saik Road<br/>
+                        The Working Capitol<br/>
+                        Singapore 089109"
+          collect_help_link: "http://discover.cardup.co/collect/learn-more?utm_source=collect-partner&utm_medium=collect-partner&utm_campaign=acq_guest-payment&utm_content=receipt"
