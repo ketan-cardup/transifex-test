@@ -1,0 +1,6 @@
+en:
+  account_steps:
+    update:
+      uploading_empty_csv: "We’re unable to process your document. Please check if it has any missing / invalid payment details."
+    edit_schedule:
+      fin_label: 'NRIC'

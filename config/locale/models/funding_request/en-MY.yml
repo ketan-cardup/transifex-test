@@ -1,0 +1,9 @@
+en-MY:
+  activerecord:
+    errors:
+      models:
+        funding_request:
+          attributes:
+            company_uen:
+              blank: "Please enter your company’s Business Registration No."
+              invalid: "Please enter a valid Business Registration No."

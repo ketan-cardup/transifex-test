@@ -1,0 +1,56 @@
+en:
+  success_messages:
+    keys:
+      create: "API Key has been created. Please copy the Client Key. For security purposes, we do not store it and it can't be shown again."
+      destroy: "API Key has been deleted"
+
+  error_messages:
+    record_not_found:
+      code: 202010
+      title: "record_not_found"
+      detail: "This record does not exist"
+
+    unprocessable:
+      code: 202020
+      title: "unprocessable_entity"
+      detail: "This entity can not be processed"
+
+    authentication_error:
+      code: 202030
+      title: "authentication_error"
+      detail: "Invalid or expired token"
+
+    token_error:
+      code: 202031
+      title: "authentication_error"
+      detail: "Invalid or expired token"
+
+    api_client_error:
+      code: 202032
+      title: "client_error"
+      detail: "Invalid or expired token"
+
+    claims_error:
+      code: 202033
+      title: "authentication_error"
+      detail: "Invalid or expired token"
+
+    filter_error:
+      code: 202040
+      title: "filter_error"
+      detail: "Invalid filters or filter data type"
+
+    request_error:
+      code: 202041
+      title: "request_error"
+      detail: "Invalid request parameters"
+
+    unknown_attribute_error:
+      code: 202050
+      title: "server_error"
+      detail: "There was an error processing your request."
+
+    refund_error:
+      code: 202051
+      title: "refund_error"
+      detail: "Refund cannot be processed. Please try again."

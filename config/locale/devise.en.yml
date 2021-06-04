@@ -1,0 +1,157 @@
+# Additional translations at https://github.com/plataformatec/devise/wiki/I18n
+
+en:
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              blank: "Please enter a valid email address"
+              taken: "This email is already registered with CardUp. Please log in or sign up with a different email address."
+              invalid: "Please enter a valid email address"
+              not_found: "If your email address is not yet verified, you’ll receive an email to do so shortly."
+            password:
+              blank: "Please enter a valid password"
+              too_short: "This password does not match requirements"
+              invalid: "Please enter a valid password"
+            current_password:
+              blank: "Please enter your current password"
+              invalid: "This password does not match your current password"
+            reset_password_token:
+              invalid: "This link has now expired. <a href='password/new'><u>Resend Email</u></a>."
+            confirmation_token:
+              invalid: "This link has now expired. <a href='javascript:send_confirmation_email();' id='confirm_email_link'><u>Resend email</u></a>."
+            unlock_token:
+              invalid: "Your account was already unlocked! Please try signing in"
+  devise:
+    link:
+      confirmation_link: "Didn't receive confirmation details?"
+      unlock_details: "Didn't receive unlock details?" 
+      forgot_password: "Forgot your password?"
+      sing_in_with : "Sign in with %{title}"
+    label:
+      email: "Email"
+      password: "Password"
+    placeholder:
+      email: "Enter your Email"
+      password: "Enter your password"
+    confirmations:
+      confirmed: "Your email address is now verified. You can log in below."
+      send_instructions: "If your email address is not yet verified, you’ll receive an email to do so shortly."
+      send_paranoid_instructions: "If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes."
+      new:
+        title: "Resend confirmation instructions"
+        button:
+          resend: "Resend"
+    failure:
+      already_authenticated: "You are already signed in"
+      inactive: "Your account is not activated yet."
+      # invalid: "Invalid %{authentication_keys} or password."
+      invalid: "Sorry, the email and password combination provided didn't work. Please try again."
+      locked: "This account has been locked due to several unsuccessful login attempts. Please reach out to us for assistance <a href='/users/unlock/new' style='color:gray;'><u>here</u></a>"
+      last_attempt: "Sorry, the email and password combination provided didn't work. You have <b>one</b> attempt remaining before this account is locked."
+      not_found_in_database: "Sorry, the email and password combination provided didn't work."
+      timeout: "Your session expired. Please log in again to continue."
+      unauthenticated: "You need to log in or sign up before continuing."
+      unconfirmed: "You have to confirm your email address before continuing."
+      deleted_account: "Your account is suspended or deleted."
+    mailer:
+      confirmation_instructions:
+        subject: "Confirmation instructions"
+        verify_email: "Verify email"
+      reset_password_instructions:
+        subject: "Reset password instructions"
+      unlock_instructions:
+        subject: "Unlock instructions"
+    omniauth_callbacks:
+      failure: "Could not authenticate you from %{kind} because \"%{reason}\"."
+      success: "Successfully authenticated from %{kind} account."
+    passwords:
+      no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
+      send_instructions: "Follow the steps sent to your email inbox to reset your password."
+      send_paranoid_instructions: "If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes."
+      updated: "Your password has been changed successfully."
+      updated_not_active: "Your password has been changed successfully."
+      new:
+        title: "Forgot your password?"
+        button:
+          reset: "Reset"
+      edit:
+        title:
+          new_user: "Set your password"
+          change_password: "Change your password"
+        label:
+          new_password: "New password"
+          confirm_password: "Confirm New Password"
+        button:
+          set_password: "Set Password"
+          change_password: "Change password"
+    registrations:
+      destroyed: "Bye! Your account has been successfully cancelled. We hope to see you again soon."
+      signed_up: "Welcome! You have signed up successfully."
+      signed_up_but_inactive: "You have signed up successfully. However, we could not sign you in because your account is not yet activated."
+      signed_up_but_locked: "You have signed up successfully. However, we could not sign you in because your account is locked."
+      signed_up_but_unconfirmed: "A confirmation email has been sent to your address. Please follow the instructions in this email to activate your account."
+      update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirm link to confirm your new email address."
+      updated: "Your account has been updated successfully."
+      new_registration_form:  
+        title: 
+          welcome: "Welcome, let’s get started!"
+          password: "Must be at least 8 characters long and include at least 1 digit or symbol (!@#$%^)"
+        link:
+          login: "Already have an account?"
+          privacy_policy: "Privacy Policy"
+          terms_Of_service": "Terms Of Service"
+        span:
+          personal: "Personal"
+          business: "Business"
+          recaptcha: "Recaptcha verification is required to ensure security against bots and allow only real persons to use CardUp"
+        label:
+          term_and_policy: "By registering you agree to our"
+      edit:
+        title: "Account Settings"
+        span: 
+          change_password: "Change password"
+      user:
+        signed_up_but_deleted_account: "A confirmation email has been sent to your address. Please follow the instructions in this email to activate your account."
+    sessions:
+      signed_in: "Signed in successfully."
+      signed_out: "You are now logged out"
+      already_signed_out: "You are now logged out"
+      new:
+        title: "Welcome back!"
+        link:
+          sing_up: "Don’t have an account?"
+          privacy_policy: "Privacy Policy"
+          terms_Of_service: "Terms Of Service"
+        login_button: "Log in"
+        term_n_policy: "By continuing you agree to our"
+    unlocks:
+      send_instructions: "If your account is locked, a notification will be sent to your email address. Please follow the instructions to unlock your account."
+      send_paranoid_instructions: "If your account exists, you will receive an email with instructions for how to unlock it in a few minutes."
+      unlocked: "Your account is now unlocked. Proceed to log in below."
+      new:
+        title: "Send unlock instructions"
+        button:
+          send: "Send"
+    invitations:
+      edit:
+        title: "Set your password"
+        label:
+          new_password: "New Password"
+          confirm_password: "Confirm New Password"
+        set_button: "Set Password"  
+  errors:
+    messages:
+      already_confirmed: "If your email address is not yet verified, you’ll receive an email to do so shortly."
+      confirmation_period_expired: "Email needs to be confirmed within %{period}. Please request a new one"
+      expired: "Oops! This reset password link has now expired. Please request a new one."
+      not_found: "not found"
+      not_locked: "If your account is locked, a notification will be sent to your email address. Please follow the instructions to unlock your account."
+      not_saved:
+        one: "1 error prohibited this %{resource} from being saved:"
+        other: "%{count} errors prohibited this %{resource} from being saved:"
+      confirmation_invalid_logged_out: "This link has now expired. <a href='confirmation/new'><u>Resend Email</u></a>."
+      invalid_email: "Please enter a valid email address"
+      password_expired: "Your password is expired. Please change your password"

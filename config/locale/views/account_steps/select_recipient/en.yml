@@ -1,0 +1,12 @@
+en:
+  account_steps:
+    select_recipient:
+      title: Select Recipient
+      tax_subtitle: Pre-loaded Recipients (%{count})
+      recipient_list:
+        titles:
+          my_recipients: My Recipients (%{count})
+          company_recipients: Company Recipients (%{count})
+          preloaded_recipients: Preloaded Recipients (%{count})
+        placeholder: Search for Recipient
+        button: Add New

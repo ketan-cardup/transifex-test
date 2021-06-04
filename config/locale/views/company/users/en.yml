@@ -1,0 +1,42 @@
+en:
+  company:
+    users:
+      title: Account Settings
+      side_bar_option: Manage members
+      sub_title: Company members
+      disable_modal:
+        title: Disable member
+        confirm_message: Are you sure you want to disable this member account?
+        button: Disable
+      form:
+        labels:
+          email: Email
+          role: Role
+          permissions: Permissions
+        buttons:
+          back: Back
+          update: Update
+          send: Send Invite
+      edit:
+        breadcrumb_li: Edit
+      new:
+        breadcrumb_li: Invite
+      index:
+        button:
+          invite: Invite member
+          edit: Edit Role
+          delete: Delete member
+        email:
+          instruction: To add members, please confirm your email.
+          confirmation_link_text: ' Get confirmation email.'
+          error: Something went wrong. Please try again.
+        table:
+          headers:
+            name: Name
+            email: Email
+            role: Role
+            invitation_status: Invitation Status
+        invite:
+          accepted: Accepted
+          not_accepted: Not accepted
+          resend: Resend Invite

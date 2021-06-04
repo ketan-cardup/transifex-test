@@ -1,0 +1,12 @@
+en:
+  activerecord:
+    errors:
+      models:
+        user_role:
+          attributes:
+            name:
+              blank: "Please enter a valid role name"
+              invalid: "Please enter a valid role name"
+              taken: "This role name is already taken"
+            company:
+              blank:  "Role cannot exist without a company"

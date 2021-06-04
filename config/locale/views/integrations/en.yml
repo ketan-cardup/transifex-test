@@ -1,0 +1,10 @@
+en:
+  integrations:
+    guest_checkouts:
+      make_guest_payments_form:
+        card_not_allowed: Please note that American Express corporate cards cannot be used.
+        amex_and_international_card_not_allowed: Please note that American Express and international cards cannot be used.
+    payment_checkouts:
+      make_payments_form:
+        card_not_allowed: Please note that American Express corporate cards cannot be used.
+        amex_and_international_card_not_allowed: Please note that American Express and international cards cannot be used.

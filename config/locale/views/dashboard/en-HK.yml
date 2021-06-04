@@ -1,0 +1,38 @@
+en-HK:
+  dashboard:
+    accessdenied:
+      support_link_text: "Contact Support"
+    setup_profile:
+      no_payments: "You have no payments scheduled yet"
+      first_payment: "It only takes a few minutes to set up your first payment!"
+    edit_payment: "You will be editing all %{future_payments_count} payments to %{payee_name} scheduled from %{start_date} to %{end_date}."
+    edit_schedule:
+      promo_code: "See which payments have the promo code applied on your dashboard."
+    page_index:
+      to_show_cancel_confirm_message:
+        edit_payment_link_text:
+          one: "edit your payment"
+          other: "edit your payments"
+        cancelling_payment_text: "Are you sure you want to cancel this payment? You can also %{edit_payment_help_link} to update the amount, due dates, promo codes etc."
+    approval_modal_form:
+      terms_of_service_link_text: "Terms of Service"
+      confirm_terms_of_service_text: "By clicking confirm, you accept that these payments cannot be refunded by CardUp directly (in accordance with the %{terms_link}). You can cancel/edit these payments from your dashboard before the payment charged date."
+    business_carousel:
+      banners:
+        welcome:
+          img_alt: "Welcome Banner"
+          tag: "Welcome"
+          header: "Get started with our platform"
+          text: "Enjoy the freedom of card payments, wherever you choose!"
+        unionpay_card:
+          img_alt: "All Cards Banner"
+          tag: "New"
+          header: "We now accept all UnionPay credit cards!"
+          text: "Set up your payments with your favourite credit cards now"
+        first_payment:
+          img_alt: "first payment Banner"
+          tag: "Promo"
+          header: "Get your first payment up to HK$88,000 for free"
+          text: "Use code TRYCARDUPHK"
+      learn_more_cta: "Learn more"
+      terms_conditions_apply_text: "(T&Cs apply)"

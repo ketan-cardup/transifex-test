@@ -1,0 +1,11 @@
+en-HK:
+  account_steps:
+    upload:
+      payee_level_upload_help_text:
+        car_loan: "To help us verify your loan repayment, upload 1) your hire purchase agreement and 2) proof of either your loan repayment account or your loan provider's bank details (.png, .jpg or .pdf)."
+        payroll_link_text: "bank account statement"
+        helper_salary_link_text: "helper's work visa permit"
+        payroll: "To help us verify your company’s bank details, upload your company’s %{payroll_support_link} (.png, .jpg or .pdf)."
+        helper_salary: "To help us verify your payment, upload your helper's Standard Employment Contract and your helper's bank statement (.png, .jpg or .pdf)."
+      payee_level_upload_component_title:
+        helper_salary: Helper's Standard Employment Contract (SEC)

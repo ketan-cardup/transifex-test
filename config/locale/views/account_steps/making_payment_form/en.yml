@@ -1,0 +1,139 @@
+en:
+  account_steps:
+    making_payment_form:
+      amount:
+        title: Amount
+        gst:
+          label: GST
+          label_help_text: (optional)
+          placeholder: "0.00"
+          tooltip: Enter the GST amount here if it appears separate on your invoice
+      payroll_advice:
+        title: Payroll File Upload
+        instruction_block: Upload your payroll file (.xlsx format) here. We will send the funds to each employee based on the payment details on the file.
+        uploader: Upload
+      payment_plan:
+        title: Payment Plan
+        plan_title:
+          standard: Standard Payment
+          next_day: Next Business Day Payment
+          extend: Extend payment
+        plan_description:
+          standard: Your card will be charged %{days} business days before the due date.
+          next_day: Your card will be charged 1 business day before the due date.<br>Extra %{express_fee}% fee applies.
+          learn_more_text: Learn more
+          extend: We will pay your recipient on the due date. Your card will be charged %{term_days} days after the due date. Extra %{extra_fee}% fee applies. %{learn_more_link}
+      duration:
+        title: Duration
+        payment_frequency:
+          label: Payment Frequency
+          incometax_monthly_help_text: Please ensure that you have an existing GIRO installment plan with IRAS if you would like to make monthly income tax payments through CardUp. For more information on GIRO installment plans with IRAS, you can find out more
+          link:
+            text: here
+        payment_due_date:
+          due_date_label: Payment Due Date
+          payment_due_date_xborder: Date on which your payment will reach the recipient.<br/><br/>For International payments, your card will be charged upon confirming this payment, and the funds will arrive within 3 business days.
+          due_date: Date on which your payment will reach the recipient
+          help_block: Your card will be charged on <b><span id="card_charge_date"></span></b><span class="hide" id="first_payment_date_text"> for the first payment</span>
+          placeholder: DD / MM / YYYY
+          number_of_payments: No. of Payments
+          last_due_date_label: Last Payment Due Date
+          recurring_schedule_last_payment: Date on which your last payment will reach the recipient
+          data_external_link_text: "Why are some dates not available?"
+      reference:
+        label: Receipt ID
+        policy_reference: Policy Reference
+        payment_reference: Payment reference
+      purpose_of_payment:
+        label: Purpose of payment
+        placeholder: Purpose of payment
+        help_block: "Some foreign banks need purpose of payment to settle funds to your recipient. Example: 'Management Consulting Services'"
+      descriptor:
+        label: Description for your Credit Card Statement
+        label_help_text: (optional)
+        placeholder: "Example: Rent"
+      promo_code:
+        label: Promo Code
+        label_help_text: (optional)
+        button: Add
+      fee_breakdown:
+        title: CardUp Fee Breakdown
+        fee_link_text: fee
+        cardup_fee: This %{fee_link} contributes to keeping our service secure and reliable, and helps us enable card payments where cards are not accepted.
+        base: Base fee
+        extend: Extend fee
+        next_day: Next Day fee
+        total: Total Fee
+      tax_ref_already_used_error:
+        income_tax: The payment reference should be your own NRIC. Please %{contact_link} for any assistance.
+        property_tax: This tax reference number has already been used on another user account. Please %{contact_link} for any assistance.
+        link:
+          link_text: contact us
+      verify_payment_generic: To help us verify your recipient’s bank details, upload your invoice (.png, .jpg or .pdf).
+      verify_payment_income_tax: "To help us verify your payment, upload your up-to-date %{statement_of_ac_link} showing your name, NRIC, outstanding balance and date of outstanding balance (.png, .jpg or .pdf)."
+      verify_payment_electricity: "To help us verify your payment, upload your electricity invoice (.png, .jpg or .pdf)."
+      verify_payment_corporate_tax: "To help us verify your payment, upload your up-to-date %{statement_of_ac_link} showing your outstanding balance and date of outstanding balance (.png, .jpg or .pdf)."
+      verify_payment_gst: "To help us verify your payment, upload your up-to-date Payment Slip or Tax Bill (.png, .jpg or .pdf)."
+      verify_payment_link_text: "latest CPF Record and payroll system records"
+      verify_payment_payroll: "To help us verify your payment, upload your %{payroll_support_link} showing your employees’ names and salaries (.png, .jpg or .pdf)."
+      verify_payment_supplier: "To help us verify your payment, upload your invoice (.png, .jpg or .pdf)."
+      verify_payment_misc: "To help us verify your recipient’s bank details, upload your payment advice e.g. an invoice (.png, .jpg or .pdf)."
+      statement_of_ac_link_text: "Statement of Account"
+      verify_payment_xb: "To help us verify your payment, please ulpoad an up-to-date copy of your payment advice for Cross-border payment."
+      verify_payment_stamp_duty: "To help us verify your payment, upload your up-to-date Payment Slip (.png, .jpg or .pdf)."
+      bank_statement_link_creditor_text: "show on your creditor’s bank statement"
+      bank_statement_link_iras_text: "show on IRAS' bank statement"
+      bank_statement_link_insurer_text: "show on your insurer’s bank statement"
+      bank_statement_link_recipient_text: "show on your recipient’s bank statement"
+      bank_statement_link_general_text: "show on your bank statement"
+      payment_reference:
+        education:
+          laboratree: "Enter receipt ID given by The Education LaboraTree. This will %{bank_statement_link} to help identify your payment. Max 35 characters."
+          canadian:  "Enter your invoice number or student’s full name. This will %{bank_statement_link} to help identify your payment. Max 35 characters."
+          iss: "Enter student’s full name and ISS Student ID number (if available). This will %{bank_statement_link} to help identify your payment. Max 35 characters."
+          general: "This will %{bank_statement_link} to help identify your payment (e.g. your child’s name). Max 35 characters."
+        insurance:
+          manulife: "Enter policy number and NRIC/FIN. This will %{bank_statement_link} to help identify your payment. Max 35 characters."
+          aviva: "Enter NRIC, policy number and policy holder's name. This will %{bank_statement_link} to help identify your payment. Max 35 characters."
+          general: "Enter policy number and policy holder's name. This will %{bank_statement_link} to help identify your payment. Max 35 characters."
+        misc:
+          moovaz: "Payment reference appears on the recipient’s bank statement to help them identify the payment. <b>Please enter your invoice number and name.</b> This cannot be more than 35 characters."
+        tax:
+          income: "This NRIC will be used by IRAS to identify your payment. You can only make a tax payment tied to your own NRIC number."
+          property: "Enter your Tax Reference Number or 14-digit Payment Slip Number. This will %{bank_statement_link} to help identify your payment."
+          corporate_gst: "Enter your Tax Reference Number or 14-digit Payment Slip Number. This will %{bank_statement_link} to help identify your payment."
+          income_tax_uploaded_document_on_onfido: Please enter your NRIC number as the payment reference. Note that tax payments can only be made to a tax account tied to your NRIC number.
+        car_loan: This will %{bank_statement_link} to help identify your payment (e.g. your name and loan number). Max 35 characters.
+        supplier: This will %{bank_statement_link} to help identify your payment (e.g. invoice number). Max 35 characters.
+        payroll: "This will %{bank_statement_link} to help identify your payment. Max 35 characters."
+        stamp_duty: "Enter your 14-digit Payment Slip Number. This will %{bank_statement_link} to help identify your payment."
+        mortgage: "This will %{bank_statement_link} to help identify your payment (e.g. your name and loan number). Max 35 characters."
+        general: "This will %{bank_statement_link} to help identify your payment (e.g. your name, unit number or condo name). Max 35 characters."
+      faq_link:
+        what_is_the_processing_fee:
+          business: "https://www.cardup.co/business/fees"
+          personal: "https://www.cardup.co/homes/personalfees"
+        why_date_not_available: 'https://carduphelp.zendesk.com/hc/en-us/articles/360023852593'
+      extend:
+        charge_date: "Your card will be charged on %{lending_payment_taken_date}, which is %{term_days} calendar days after payment due date."
+        fee_tooltip: "To provide a secure and reliable service that enables you to pay after %{term_days} days, we charge a %{fee_link}"
+        plan_one:
+          due_date: "For extended payment terms, the due date can only be the next working day."
+        plan_two:
+          due_date: "Your recipient will be paid once the extension is approved, which is expected to be in 3 business days."
+      sg_card_for_extend_info_text_html: "The Extend feature is only available for cards issued in Singapore.<br>Please <b>re-select your card.</b>"
+      payment_reference_placeholder:
+        insurance:
+          aia: Enter your policy number and name
+          aviva: Enter NRIC, policy number and name
+          manulife: Enter your policy number and NRIC / FIN
+          prudential: Enter policy number and name
+          hsbc: Enter your policy number
+        car_loan: Enter your loan number and name
+      payment_frequency:
+        one_off: One-Off
+        weekly: Weekly
+        monthly: Monthly
+        quaterly: Quarterly
+        half_yearly: Half yearly
+        yearly: Yearly

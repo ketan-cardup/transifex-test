@@ -1,0 +1,31 @@
+en:
+  account_steps:
+    suggest_payee_bank_details_modal:
+      title: Update Bank Details
+      labels:
+        bank_name: Recipient's Bank Name
+        bank_account_number: Recipient's Account No.
+        bank_account_name: Name of Account Holder
+        routing_number: ABA.
+        bank_details_uploader: Upload Invoice
+        payee_comments: Comments (Optional)
+      verify_payment_generic: To help us verify your recipient’s bank details, upload your invoice (.png, .jpg or .pdf).
+      bank_details_uploader: Upload Document
+      buttons:
+        submit: Submit
+      notification_modal:
+        title: Bank Details submitted successfully!
+        information_block: You'll receive an email once we've validated the bank details you submitted, post which you can setup payments to this recipient.<br/> Our customer service team might reach out to you in case we need more details.
+        buttons:
+          back: Back To Payments
+      placeholder:
+        select_bank: Select Bank
+      errors:
+        bank_name: Please enter valid bank details
+        bank_account_number: Please enter a valid bank account number
+        bank_account_name: Please enter a valid account name
+        upload: Please upload payment advice
+      update_bank_details_request:
+        notification: Thanks for letting us know of these changes. Our customer service team will be in touch soon to help you complete the payment.
+        error: Changes not sent. An error occured.
+

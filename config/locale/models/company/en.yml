@@ -1,0 +1,28 @@
+en:
+  activerecord:
+    errors:
+      models:
+        company:
+          attributes:
+            name:
+              blank: "Please enter your company’s registered name"
+              invalid_length: "Please enter a valid company name"
+              invalid_format: "We do not support %{unsupported_char_list} in the business %{validate_attribute} field."
+            trade_name:
+              blank: "Please enter your company’s registered name"
+              invalid_length: "Please enter a valid company name"
+              invalid_format: "We do not support %{unsupported_char_list} in the company %{validate_attribute} field."
+            uen:
+              blank: "Please enter your company’s UEN"
+              invalid: "Please enter a valid UEN"
+              taken: "This UEN is already registered with CardUp"
+            owner:
+              blank: "Company cannot exist without an owner"
+            industry:
+              blank: "Please select an industry to which the company belongs"
+            place_of_business:
+              blank: "Please add place of business"
+            acra_reports:
+              blank: 'Please upload valid acra report'
+            company_address_proofs:
+              blank: 'Please upload valid proof of address'

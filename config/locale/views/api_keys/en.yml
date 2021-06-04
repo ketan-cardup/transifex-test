@@ -1,0 +1,4 @@
+en:
+  api_keys:
+    verify_phn_number:
+      valid_phone_number: "Please enter a valid mobile number"

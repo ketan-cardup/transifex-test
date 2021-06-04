@@ -1,0 +1,76 @@
+en:
+  activerecord:
+    errors:
+      models:
+        schedule:
+          attributes:
+            invoice:
+              blank_for_supplier: "Please upload the necessary document(s) to continue"
+              blank_for_payroll: "Please upload the necessary document(s) to continue"
+              blank_for_x_border_invoice_required_services: "Please upload a supporting document"
+            reference:
+              blank_for_generic: "Please enter a valid payment reference"
+              invalid_format_generic: "We do not support %{unsupported_char_list} in the payment %{validate_attribute} field."
+              blank_for_insurance: "Please enter a valid policy reference"
+              invalid_format_insurance: "We do not support %{unsupported_char_list} in the policy %{validate_attribute} field."
+              invalid_format_stamp_duty: "Please enter a valid 14 digit Payment Slip Number"
+              blank_stamp_duty: "Please enter a valid 14 digit Payment Slip Number"
+              blank_property_tax: "Please enter a valid Tax Reference Number or 14 digit Payment Slip Number"
+              invalid_format_property_tax: "Please enter a valid Tax Reference Number or 14 digit Payment Slip Number"
+              wrong_length_property_tax: "Please enter a valid Tax Reference Number or 14 digit Payment Slip Number"
+              blank_gst: "Please enter a valid Tax Reference Number or 14 digit Payment Slip Number"
+              invalid_format_gst: "Please enter a valid Tax Reference Number or 14 digit Payment Slip Number"
+              wrong_length_gst: "Please enter a valid Tax Reference Number or 14 digit Payment Slip Number"
+              blank_corporate_tax: "Please enter a valid Tax Reference Number or 14 digit Payment Slip Number"
+              invalid_format_corporate_tax: "Please enter a valid Tax Reference Number or 14 digit Payment Slip Number"
+              wrong_length_corporate_tax: "Please enter a valid Tax Reference Number or 14 digit Payment Slip Number"
+              blank_income_tax: 'Please enter a valid NRIC number'
+              invalid_format_income_tax: 'Please enter a valid NRIC number'
+              too_long_income_tax: 'Payment reference cannot be greater than 14 characters'
+              too_long: 'Payment reference cannot be more than 35 characters'
+              too_short: 'Payment reference cannot be lesser than 9 characters'
+              invalid_policy_reference: "Policy Reference should contain valid NRIC"
+              same_as_nric: "Policy Number should be your own NRIC"
+            amount:
+              blank: "Please enter your payment amount"
+              invalid_format: "Please enter a valid amount to 2 decimal places"
+              next_day_payment_limit: "Maximum amount for Next Day payment is %{user_express_amount_limit}. To request for a higher amount for Next Day please write to: %{support_email}"
+              fee_paid_by_collector: "If collector is paying processing fees, amount should be greater than minimum fee."
+              maximum_cross_border: "The maximum amount per payment is %{iso_code} 960,000.00. If you need to send a larger amount, you can set up multiple payments or reach us for further assistance at %{support_email}"
+            gst:
+              invalid_format: "Please enter a valid amount to 2 decimal places"
+              not_applicable: "GST is not applicable to this payment type"
+              gst_less_than_amount: "GST can not be greater than or equal to the amount"
+            destination_amount:
+              invalid_format: "Please enter a valid amount to 2 decimal places"
+            start_date:
+              blank: "Please enter a due date for your payment in dd/mm/yyyy format"
+              earlier_start_date: "You cannot select a due date earlier than %{payment_start_date}"
+              invalid_start_date: "Please enter a due date for your payment in dd/mm/yyyy format"
+            descriptor:
+              invalid_format: "We do not support %{unsupported_char_list} in the %{validate_attribute} field."
+              too_long: 'Descriptor cannot be more than 15 characters'
+            user_card_id:
+              blank: "Please select a card"
+            service_id:
+              blank: "Please select service type"
+            payroll_advice_doc:
+              blank: "Please upload a payroll advice document"
+            approvers:
+              blank: "Please select approver(s)"
+            end_date:
+              invalid_format: 'Please select a valid end date: dd/mm/yyyy'
+              incorrect_range: 'Last payment date must be greater than payment due date'
+            taken_day:
+              extend_or_express: "Please select either Extend or Express. You cannot opt for Express on an Extend payment."
+            purpose_of_payment:
+              blank: "Please enter a valid %{field_name}"
+              invalid: "Please enter a valid purpose of payment, cannot contain special characters (max limit 120 char)."
+          extend:
+            plan_one:
+              invalid_start_date: "Extend payment due date must be set as the next working day"
+            plan_two:
+              invalid_start_date: "Extend payment due date must be set as the next 3 working days"
+          user_card_validations:
+            amex_card_error: "American Express cards cannot be used for %{service_type} payments. Please select a different card."
+            citi_bank_card_error: "Citibank cards cannot be used for %{service_type} payments. Please select a different card."

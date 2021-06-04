@@ -1,0 +1,15 @@
+en-HK:
+  company:
+    collect_payees:
+      form:
+        bank_statement_link_text: "bank account statement"
+        verify_company_bank_details: "To help us verify your company’s bank details, upload your company’s %{bank_statement_link} (.png, .jpg or .pdf)."
+        average_invoice_tooltip: "This will help us cater to your business needs better."
+        expected_volume_tooltip: "This will help us cater to your business needs better."
+      form_collect:
+        collect_brc_tooltip: "To verify your company’s details, please provide a copy of your Business Registration Certificate issued by IRD."
+        collect_nar_tooltip: "To verify your company’s details, please provide a copy of your NAR1 form issued by Companies Registry"
+        collect_passport_hkid_tooltip: "For verification purposes, we are able to accept only colour images/ scans of your identity documents."
+      passport_details:
+        authorized_member_proof: "Passport/HKID of <br> authorized members"
+        proof_label: "Passport/HKID"

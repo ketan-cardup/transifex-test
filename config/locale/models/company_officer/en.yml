@@ -1,0 +1,12 @@
+en:
+  activerecord:
+    errors:
+      models:
+        company_officer:
+          attributes:
+            first_name:
+              blank: "Please enter a valid first name"
+              invalid_length: "Please enter a valid first name"
+            last_name:
+              blank: "Please enter a valid last name"
+              invalid_length: "Please enter a valid first name"

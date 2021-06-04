@@ -1,0 +1,22 @@
+en-MY:
+  shared:
+    footer:
+      cardup_ltd: "CardUp Malaysia SDN. BHD."
+      faq_link_text: "FAQ"
+    new_ui_footer:
+      cardup_ltd: "CardUp Malaysia SDN. BHD."
+      faq_link_text: "FAQs"
+    enterprise_footer:
+      cardup_ltd: "CardUp Malaysia SDN. BHD."
+      faq_link_text: "FAQs"
+    new_ui_header:
+      referral_program_link_text: "Referral Program"
+      faq_link_text: "FAQs"
+    enterprise_header:
+      faq_link_text: "FAQs"
+    after_login_menu:
+      learn_more_link_text: "Learn more"
+      support_link_text: "Support"
+    without_login_menu:
+      faq_link_text: "FAQ"
+      referral_program_link_text: "Referral Program"

@@ -1,0 +1,8 @@
+en:
+  activerecord:
+    errors:
+      models:
+        payroll_advice:
+          attributes:
+            document:
+              size_too_large: "We do not support file sizes greater than 5 MB."

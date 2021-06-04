@@ -1,0 +1,73 @@
+en:
+  user_cards:
+    add_card: Add Card
+    your_cards: Your Cards
+    delete_card: Deleting your card ?
+    gp_config_help: If you want to edit your saved card details, please write in to
+    delete_confirm: If you delete this card, any payments associated with this card will be cancelled automatically
+    delete_confirm_with_payment: If you delete this card, %{payment_count} payments associated with this card will be cancelled automatically
+    stripe:
+      excluded_cards: "Please note that American Express corporate cards cannot be used."
+    user_card_blank:
+      cards_title: View and manage your cards here
+    user_card_list:
+      credit_name: Credit Card Number
+      credit_holder: Card Holder Name
+      card_country: Card Country
+      extend_payment_card: This card cannot be deleted as it is currently part of an Extend Payment
+      international_payment_card: This card cannot be deleted as it is currently used for an international payment.
+    add_billing_address:
+      labels:
+        add_billing_address: Add Billing Address
+    billing_address_dropdown:
+      labels:
+        select_billing_address: Select Billing Address
+        add_billing_address: Add Billing Address
+        my_billing_address: My Billing Addresses
+    billing_address_form:
+      help_blocks:
+        need_of_address: Your address is needed to help us process your payment. No communication will be sent to this address unless you opt in to receive marketing.
+        example_address1: 'Kindly input your block and unit number. e.g. "Blk 123, #01-01"'
+        example_address2: Kindly input your street name. e.g. "Hougang Street 10"
+      labels:
+        address1: Address Line 1
+        address2: Address Line 2
+        city: City
+        state: State
+        postcode: Postcode
+        country: Country of Billing Address
+      cta:
+        save_address: Save Address
+    stripe:
+      labels:
+        new_card_details: New Card Details
+        edit_card_details: Edit card ending with
+    cybs_input_fields:
+      encryption_text: Secure 256-bit SSL
+      excluded_cards: "Please note that American Express corporate cards cannot be used."
+      alt:
+        visa: Visa
+        mastercard: Mastercard
+        amex: American Express
+        unionpay: UnionPay
+      expiry_month: Expiry month
+      cta:
+        add_card: Add Card
+      tooltip:
+        cvv_tooltip: This is the 3 or 4 digit number printed on the front or back of your card
+      labels:
+        first_name: First Name
+        last_name: Last Name
+        security_code: Security Code
+        expiry_month: Expiry Month
+        expiry_year: Expiry Year
+      placeholder:
+        month: MM
+        year: YY
+        last_name: Cardholder Last Name
+        first_name: Cardholder First Name
+        cvv: CVV code
+      card_help_text: To ensure it’s really you setting up this payment we’ll ask you to verify your card with an OTP. The payment will not be charged yet.
+    cybs:
+      labels:
+        new_card_details: New Card Details

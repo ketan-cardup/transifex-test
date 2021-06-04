@@ -1,0 +1,28 @@
+en-HK:
+  account_steps:
+    account_details:
+      form:
+        fin_label: 'HKID'
+        expiry_date_pass_label: 'Expiry date of HKID'
+    cybs:
+      card_help_text: "To ensure it’s really you setting up this payment we’ll ask you to verify your card with an OTP. The payment will not be charged yet.<br><br>Please note that you can only add a Hong Kong issued card to transact."
+    user_payee:
+      misc_uen_label: 'Company Registration No.'
+      misc_uen_placeholder: 'Company Registration No.'
+      misc_uen_help_text: "(Can't find the CR no.?: Go to <a href='https://www.icris.cr.gov.hk/csci/' target: '_blank' rel: 'noopener noreferrer'>https://www.icris.cr.gov.hk/csci/</a> and search for your company's name)"
+      verify_payment_hire: "To help us verify your loan repayment, upload 1) your hire purchase agreement and 2) proof of either your loan repayment account or your loan provider's bank details (.png, .jpg or .pdf)."
+    stripe:
+      domestic_card_only: "Please note that you can only add a Hong Kong issued card to transact."
+    temp_payments:
+      processing_fees_help_link: "https://carduphk.zendesk.com/hc/en-us/articles/360033521912-What-is-the-processing-fee"
+      currency_unit: "HK$"
+    upload:
+      tax_support_link_text: "Demand Note"
+      verify_payment_income_tax: "To help us verify your payment, upload your up-to-date %{tax_support_link} showing your outstanding balance and date of outstanding balance (.png, .jpg or .pdf)."
+      verify_payment_property_corporate_tax: "To help us verify your payment, upload your up-to-date %{tax_support_link} showing your outstanding balance and date of outstanding balance (.png, .jpg or .pdf)."
+      verify_payment_link_text: "latest MPF Record and payroll system records"
+      verify_payment_payroll: "To help us verify your payment, upload your %{payroll_support_link} showing your employees’ names and salaries (.png, .jpg or .pdf)."
+    add_recipient:
+      uen_label_text:
+        supplier: 'Supplier Company Registration No.'
+        misc: "Supplier Company Registration No."

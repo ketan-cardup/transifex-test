@@ -1,0 +1,4 @@
+en-HK:
+  account_steps:
+    new_confirm_form:
+      verify_payment_otp: "You will get an OTP via SMS to verify your payment. Your card will be charged %{currency_denotation}%{stripe_minimum_amount}, which will be automatically refunded in a few days."

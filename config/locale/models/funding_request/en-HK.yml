@@ -1,0 +1,9 @@
+en-HK:
+  activerecord:
+    errors:
+      models:
+        funding_request:
+          attributes:
+            company_uen:
+              blank: "Please enter a valid Company Registration No."
+              invalid: "Please enter a valid Company Registration No."

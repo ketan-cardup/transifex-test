@@ -1,0 +1,7 @@
+en-MY:
+  account_steps:
+    payment_type:
+      list:
+        business_list:
+          payment_type_tag:
+            supplier: 'Supplier / Miscellaneous'

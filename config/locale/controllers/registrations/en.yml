@@ -1,0 +1,7 @@
+en:
+  registrations:
+    update:
+      error:
+        incorrect_pwd_attempts: "You have entered your password incorrectly 5 times. Please wait 2 minutes before trying again."
+      success:
+        pwd_updated_successfully: "Password updated successfully"

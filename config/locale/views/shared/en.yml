@@ -1,0 +1,68 @@
+en:
+  shared:
+    footer:
+      cardup_ltd: "CardUp Pte Ltd"
+      faq_link_text: "FAQ"
+    new_ui_footer:
+      cardup_ltd: "CardUp Pte Ltd"
+      faq_link_text: "FAQs"
+    enterprise_footer:
+      cardup_ltd: "CardUp Pte Ltd"
+      faq_link_text: "FAQs"
+    new_ui_header:
+      referral_program_link_text: "Referral Program"
+      faq_link_text: "FAQs"
+    enterprise_header:
+      faq_link_text: "FAQs"
+    after_login_menu:
+      support_link_text: "Support"
+    without_login_menu:
+      faq_link_text: "FAQ"
+      referral_program_link_text: "Referral Program"
+    referral_email_modal:
+      labels:
+        to: To
+        from: From
+        subject: Subject Line
+      placeholder:
+        email_input: E.g. john@example.com,mary@example.com
+      button:
+        send_invite: Send Invitations
+      titles:
+        modal: Invite your friends via email
+        sample: Sample
+        sample_email: Sample Email
+      cardup: CardUp
+      subject_line_text: Your friend has given you CardUp credits
+    recipient_cards:
+      dropdown_menu:
+        view_edit: View/Edit
+        view: View
+      labels:
+        bank_name: "Bank Name & SWIFT/BIC:"
+        account_number: "Account No:"
+        routing_number: "ABA:"
+        rent: "Tenancy Expiry Date:"
+        expired: (Expired)
+        expiring_soon: (Expiring soon)
+        helper: "Employment Termination Date:"
+        mcst: "Development Name:"
+        mortgage: "Final Loan Instalment Date:"
+      recipient_name:
+        corporate_tax: IRAS - Corporate Tax
+        stamp_duty: IRAS - Stamp Duty
+        gst: IRAS - GST
+        income_tax: IRAS - Income Tax
+        property_tax: IRAS - Property Tax
+      needs_review_badge:
+        tooltip_title: We are still reviewing this recipient's details. We'll send you an email once we're done, post which you can setup payments to this recipient.
+        under_review: Under Review
+    devise_change_password:
+      title: 'Change Password'
+      label:
+        existing_password: 'Existing password'
+        new_password: 'New password'
+        confirm_password: 'Confirm new password'
+      placeholder:
+        match_password: "Ensure both new & confirm new password matches"
+      submit_button: "Submit"

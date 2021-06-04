@@ -1,0 +1,5 @@
+en:
+  api_keys:
+    credentials_card:
+      newly_created_key:
+        info_message_html: "API Key has been created. <b>Please copy the API secret</b>. For security purposes, we do not store it and it can't be shown again."

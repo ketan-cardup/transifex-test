@@ -1,0 +1,4 @@
+en:
+  confirmations:
+    show:
+      email_verified: "Your email address is now verified."

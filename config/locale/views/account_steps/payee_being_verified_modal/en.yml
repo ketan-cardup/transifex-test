@@ -1,0 +1,9 @@
+en:
+  account_steps:
+    payee_being_verified_modal:
+      title:
+        modal: Your new recipient <b>%{user_payee_name}</b> is being verified
+      button:
+        okay_cta: Okay
+      aria_labelled_by: Your new payee is being verified
+      verify_details: You have successfully submitted your recipient’s details. We will verify the details with your recipient and get back to you within 3 business days. Our team will contact you if we need further details.

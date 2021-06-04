@@ -1,0 +1,7 @@
+en-MY:
+  companies:
+    form:
+      uen_label: "Business Registration No."
+      search_registration_number_link: "https://www.ssm.com.my/Pages/Quick_Link/e-Search.aspx"
+      search_registration_number_link_text: "here"
+      search_registration_number_text: "Search for your BRN %{search_uen_link}."

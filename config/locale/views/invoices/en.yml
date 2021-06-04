@@ -1,0 +1,11 @@
+en:
+  invoices:
+    generate_receipt:
+      collect_help_link_text: "CardUp"
+      collect_help_link: "http://discover.cardup.co/collect/learn-more?utm_source=collect-partner&utm_medium=collect-partner&utm_campaign=acq_guest-payment&utm_content=receipt"
+      shift_payment: "lets you shift payments currently made by cash, cheque or bank transfers onto your credit cards, allowing you to enjoy the benefits and freedom of card payments wherever you choose."
+      cardup_address: "CARDUP PTE. LTD.<br/>
+                      75 Ayer Rajah Crescent,<br>
+                      #02-04,<br>
+                      Singapore 139953"
+      amount_text: "Amount (inclusive of GST)"

@@ -1,0 +1,10 @@
+en:
+  activerecord:
+    errors:
+      models:
+        invoice:
+          attributes:
+            document:
+              size_too_large: "We do not support file sizes greater than 5 MB."
+            document_file_name:
+              invalid_format: "We do not support special characters for filename. Please rename your file and upload it again."

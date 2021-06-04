@@ -1,0 +1,14 @@
+en:
+  stripe:
+    user_cards:
+      create:
+        unsupported_cards: "American Express Corporate Cards cannot be used. Please use a different card."
+        stripe_error: Unable to process your request. Please check the card details and try again.
+        stripe_success: Card added successfully
+        stripe_card_already_added_error: This card is already stored in your profile. Please use a different card.
+        fidelity_error: This card cannot be used. Please use a different card.
+      update:
+        stripe_error: Unable to process your request. Please check the card details and try again.
+        stripe_success: Your card has been successfully updated.
+        stripe_card_info_incorrect_error: The card details you've entered are incorrect, please check and try again
+

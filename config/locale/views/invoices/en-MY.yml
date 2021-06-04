@@ -1,0 +1,11 @@
+en-MY:
+  invoices:
+    generate_receipt:
+      collect_help_link_text: "CardUp"
+      collect_help_link: "http://discover.cardup.my/collect/learn-more?utm_source=collect-partner&utm_medium=collect-partner&utm_campaign=acq_guest-payment&utm_content=receipt"
+      shift_payment: "lets you shift payments currently made by cash, cheque or bank transfers onto your credit cards, allowing you to enjoy the benefits and freedom of card payments wherever you choose."
+      cardup_address: "CardUp Malaysia SDN. BHD.<br/>
+                      A-38-02, Level 38, Tower A,<br>
+                      Menara UOA Bangsar, No. 5, Jalan Bangsar Utama 1,<br>
+                      59000 Kuala Lumpur, Malaysia"
+      amount_text: "Amount"

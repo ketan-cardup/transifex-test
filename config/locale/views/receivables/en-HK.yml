@@ -1,0 +1,8 @@
+en-HK:
+  receivables:
+    details_form:
+      tax_label: "GST no."
+      tax_field_placeholder: "GST Number"
+    review_form:
+      tax_label: "GST no."
+      tax_field_placeholder: "GST Number"

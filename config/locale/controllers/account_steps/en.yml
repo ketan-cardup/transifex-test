@@ -1,0 +1,11 @@
+en:
+  account_steps:
+    update:
+      payment_count_error: Only one payment will be created within your selected time period for the selected frequency. Please either select a longer time period or choose the one-off payment option instead.
+      uploading_empty_csv: "We’re unable to process your document. Please check if it has any missing / invalid payment details."
+      payroll_file_error: "Please upload a payroll advice document"
+    edit_schedule:
+      fin_label: 'NRIC/FIN'
+      user_card_validations:
+        amex_card_error: "American Express cards cannot be used for %{service_type} payments. Please select a different card."
+        citi_bank_card_error: "Citibank cards cannot be used for %{service_type} payments. Please select a different card."

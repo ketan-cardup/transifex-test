@@ -1,0 +1,7 @@
+en-HK:
+  user_details:
+    mobile_number:
+      valid_mobile_number: "Please enter a valid mobile number"
+    search_uen:
+      search_uen_link_text: "here"
+      search_uen_text: "Search for your CRN %{search_uen_link}."

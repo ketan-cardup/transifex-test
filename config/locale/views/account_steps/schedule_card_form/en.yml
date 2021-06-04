@@ -1,0 +1,18 @@
+en:
+  account_steps:
+    schedule_card_form:
+      labels:
+        card_details: Card Details
+        select_card: Select Card
+      encryption_text: Secure 256-bit SSL
+      payment_network_not_present: We're undergoing an upgrade and new cards can not be added during this time. We're sorry for any inconvenience caused - please contact us if you have questions or need assistance. You'll be able to add a new card from 6th March onwards.
+      amex_help_block:
+        text: 'In order to keep up with 3DS regulations and to ensure security of your payments, CardUp requires you to add your Amex card again to your profile and verify the card with an OTP. %{click_here_link} to know more.'
+        click_here_link_text: Click here
+      alt:
+        visa: Visa
+        mastercard: Mastercard
+        amex: American Express
+        unionpay: UnionPay
+
+

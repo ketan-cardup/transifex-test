@@ -1,0 +1,15 @@
+en-HK:
+  activerecord:
+    errors:
+      models:
+        user_payee:
+          attributes:
+            uen:
+              blank_for_generic: "Please enter a valid company registration number"
+              blank_for_supplier: "Please enter your supplier’s CRN"
+              blank_for_misc: "Please enter your recipient’s CRN"
+              invalid: Please enter a valid Company Registration No.
+              same_supplier_uen_and_company_uen: "Supplier Company Registration No. cannot be same as the company's CRN number"
+            payee_account_name:
+              blank: Please enter a valid account name
+              invalid_format: "We do not support %{unsupported_char_list} in the account holder name field."

@@ -1,0 +1,8 @@
+en:
+  profiles:
+    verify_phn_number:
+      blank_mobile_number: "Please enter your mobile number"
+      invalid_mobile_number: "Please enter a valid mobile number"
+      phone_length: [8]
+    contact_details:
+      phone_length: [8]

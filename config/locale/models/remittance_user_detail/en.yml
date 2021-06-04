@@ -1,0 +1,12 @@
+en:
+  activerecord:
+    errors:
+      models:
+        remittance_user_detail:
+          attributes:
+            value:
+              blank: "Please enter sender user id"
+            kyc_status:
+              blank: "Please enter valid kyc status"
+            kyc_submitted_on:
+              blank: "Please enter valid date"

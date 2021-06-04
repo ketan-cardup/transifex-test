@@ -1,0 +1,86 @@
+en:
+  activerecord:
+    errors:
+      models:
+        user_payee:
+          attributes:
+            uen:
+              blank_for_generic: "Please enter a valid business registration number"
+              blank_for_supplier: "Please enter your supplier’s UEN"
+              blank_for_misc: "Please enter your recipient’s UEN"
+              same_supplier_uen_and_company_uen: "Supplier UEN cannot be same as the company's UEN"
+            tenancy_agreement:
+              blank_on_update_ta: "Please upload a new tenancy agreement so that we can verify the change in your tenancy expiry date"
+              blank_on_mortgage_update: "Please upload a new Mortgage Loan agreement so that we can verify the change in your Final Loan Instalment Date"
+              blank_for_helper_salary: "Please upload the necessary document(s) to continue"
+              blank_for_misc: "Please upload the necessary document(s) to continue"
+              blank_for_education: "Please upload the necessary document(s) to continue"
+              blank_for_insurance: "Please upload the necessary document(s) to continue"
+              blank_for_others: "Please upload the necessary document(s) to continue"
+              blank_for_rent: "Please upload the necessary document(s) to continue"
+              blank_for_mortgage: "Please upload the necessary document(s) to continue"
+              blank_for_car_loan: "Please upload the necessary document(s) to continue"
+              blank_on_update_date: "Please upload new supporting documents so that we can verify the change in your helper’s employment termination date"
+            ta_expiry_date:
+              blank_for_helper_salary: "Please enter your helper’s employment expiry date"
+              blank_for_landlord: "Please enter your tenancy expiry date as shown on your tenancy agreement"
+              ta_helper_expired: "Your helper’s employment has expired. Please update the employment expiry date in order to pay this helper."
+              blank_for_mortgage: "Please enter your Final Loan Instalment Date"
+              ta_mortgage_expired: "Please select a new Loan Repayment Period as your previous Loan Repayment Period has ended. You will be prompted to submit a new Mortgage Loan agreement indicating the new Loan Repayment Period"
+              ta_rent_expired: "Your tenancy has expired. Please update your tenancy expiry date in order to pay this landlord."
+              ta_expired: "Please enter a valid expiry date"
+              blank_for_rent_on_update: "Please enter your tenancy expiry date as shown on your tenancy agreement"
+            development_name:
+              blank: "Please enter your MCST’s development name"
+              invalid_format: "We do not support %{unsupported_char_list} in the %{validate_attribute} field."
+            account_no:
+              blank: "Please enter your recipient’s bank account number"
+              invalid: "Only numbers are allowed for the account number field."
+              invalid_international_payee: "Please enter a valid account number"
+              invalid_ocbc_account_number: "Please enter a 10-12 digit OCBC account number"
+              invalid_commerz_bank_account_number: "Please enter a 10 digit CommerzBank account number"
+              blank_ocbc_bank_account_number: "Please enter a valid 10-12 digit OCBC bank account number"
+              blank_commerz_bank_account_number: "Please enter a valid 10 digit CommerzBank account number"
+            payee_account_name:
+              blank: "Please enter the bank account holder’s name"
+            bank_id:
+              blank: "Please select your recipient’s bank name"
+            first_name:
+              blank_for_generic: "Please enter a valid name"
+              blank_school_name: "Please enter your school’s name"
+              blank_landlord_name: "Please enter your landlord’s name"
+              blank_insurer_name: "Please enter your insurance company's name"
+              blank_supplier_name: "Please enter your supplier's registered company name"
+              blank_for_others: "Please enter your recipient's name"
+              blank_for_helper_salary: "Please enter your helper's name"
+              blank_for_mcst: "Please enter a valid MCST number"
+              taken_mcst_name: "This MCST already exists. You can search for it in our list of existing recipients."
+              invalid_format_generic: "We do not support %{unsupported_char_list} in the recipient name field."
+              invalid_format_landlord: "We do not support %{unsupported_char_list} in the landlord name field."
+              invalid_format_school: "We do not support %{unsupported_char_list} in the school name field."
+              invalid_format_insurer: "We do not support %{unsupported_char_list} in the insurance company name field."
+              invalid_format_supplier: "We do not support %{unsupported_char_list} in the company name field."
+              invalid_format_helper: "We do not support %{unsupported_char_list} in the helper name field."
+              invalid_for_mcst: "Please enter a valid MCST number"
+              invalid_format_without: "Name cannot contain special characters"
+            business_contact_first_name:
+              blank: "Please enter a valid %{address_field}"
+            business_contact_last_name:
+              blank: "Please enter a valid %{address_field}"
+            purpose_of_payment:
+              blank: "Please enter a valid %{address_field}"
+              invalid: "Please enter a valid purpose of payment, cannot contain special characters (max limit 120 char)."
+            telephone:
+              blank: "Please enter a valid %{address_field}"
+              invalid: "Please enter a valid 8-15 digit phone number."
+            state:
+              blank: "Please enter a valid %{address_field}"
+            address1:
+              blank_international_payee: "Please enter a valid address"
+            service_id:
+              blank: "Please select service type"
+              invalid: "Please select valid service type"
+            email:
+              invalid: "Please enter a valid email"
+            postcode:
+              invalid: 'Please enter a valid postcode'

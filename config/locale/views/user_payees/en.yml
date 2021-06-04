@@ -1,0 +1,55 @@
+en:
+  user_payees:
+    recipient_index_title: View and manage your recipients here
+    recipient_index_description: Add your recipient while creating a payment
+    recipient_header: Your Recipients
+    create_payment: Create payment
+    auth_create_payment: Not authorized to create payment.
+    payee_being_verified: This recipient is currently being verified. We will notify you via email once this is done, and you can then set up your payment.
+    form:
+      labels:
+        account_details: Account Details
+        tenancy_agreement: Tenancy agreement
+        supporting_document: Supporting Documents
+        payment_advice: Payment advice
+        employment_expiry_date: 'Employment expiry date'
+        loan_instalment_date: 'Final Loan Instalment Date'
+        tenancy_expiry_date: 'Tenancy expiry date'
+      placeholder:
+        recipient_first_name: Recipient first name
+        account_number: Recipient's account number
+        account_holder_name: Name of account holder
+      cta:
+        back: Back
+        submit: Submit
+      verify_payment_landlord: "To help us verify your payment, upload the pages of your signed tenancy agreement that contain <u>your name</u>, and your <u>landlord’s name</u> and <u>bank account details</u> (.png, .jpg or .pdf)."
+      verify_payment_insurer: "To help us verify your insurer’s bank details, upload your invoice / insurance contract (.png, .jpg or .pdf)."
+      verify_payment_hire: "To help us verify your loan repayment, upload 1) your hire purchase agreement and 2) %{provider_proof_link} (.png, .jpg or .pdf)."
+      verify_payment_hire_link_text: "proof of either your loan repayment account or your loan provider's bank details"
+      verify_payment_payroll: "To help us validate the payroll account, please upload a PDF or screenshots from your payroll system where employees' names and salaries are visible."
+      verify_payment_generic: "To help us verify your recipient’s bank details, upload your invoice (.png, .jpg or .pdf)."
+      upload_employment_expiry_date_document: 'Please enter employment expiry date as per uploaded document. Payments will be processed after changes to employment expiry date is reviewed.'
+      upload_final_loan_instalment_date_document: 'Please enter Final Loan Instalment Date as per uploaded document. Payments will be processed after changes to Final Loan Instalment Date is reviewed.'
+      upload_tenancy_agreement_document: 'Please enter tenancy agreement expiry date as per uploaded document. Payments will be processed after changes to tenancy expiry date are reviewed.'
+    user_payee_list:
+      headers:
+        name: Name
+        payment_type: Payment Type
+        bank_name: Bank Name & SWIFT/BIC
+        account_no: Account No.
+        account_name: Account Name
+      fallback_value: Not Available
+      view_edit: View/Edit
+      create_payment: Create Payment
+    edit:
+      title: My recipients
+    new:
+      labels:
+        my_recipients: My recipients
+      cta:
+        add_recipient: Add recipient
+    index:
+      cta:
+        delete_recipient: Delete recipient
+        confirm: confirm
+      confirm_message: Are you sure you want to delete this recipient? Any payments associated with this recipient will then be cancelled.

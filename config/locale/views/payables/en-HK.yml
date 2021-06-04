@@ -1,0 +1,7 @@
+en-HK:
+  payables:
+    stripe:
+      ensure_payment_setup: "To ensure it’s really you setting up this payment we’ll ask you to verify your card with an OTP. The payment will not be charged yet.<br><br>Please note that you can only add a Hong Kong issued card to transact."
+    validate_form:
+      tax_label: "GST no."
+      tax_field_placeholder: "GST Number"

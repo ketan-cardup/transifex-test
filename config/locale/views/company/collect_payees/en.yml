@@ -1,0 +1,15 @@
+en:
+  company:
+    collect_payees:
+      form:
+        bank_statement_link_text: "bank account statement"
+        verify_company_bank_details: "To help us verify your company’s bank details, upload your company’s %{bank_statement_link} (.png, .jpg or .pdf)."
+        average_invoice_tooltip: "This will help us cater to your business needs better."
+        expected_volume_tooltip: "This will help us cater to your business needs better."
+      form_collect:
+        collect_acra_reports_tooltip: "To verify your company’s details, please upload a copy of your ACRA business profile."
+        collect_passport_ic_tooltip: "Please provide the Passport/IC of the person signing the addendum"
+        collect_passport_ic_auth_tooltip: "For verification purposes, we are able to accept only colour images/ scans of your identity documents."
+      passport_details:
+        authorized_member_proof: "Passport/ IC of <br> authorized members"
+        proof_label: "Passport/ IC"

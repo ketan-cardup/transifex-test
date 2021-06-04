@@ -1,0 +1,12 @@
+en-MY:
+  company:
+    collect_payees:
+      form:
+        average_invoice_tooltip: "This will help us cater to your business needs better."
+        expected_volume_tooltip: "This will help us cater to your business needs better."
+      form_collect:
+        collect_brc_tooltip: "To verify your company’s details, Please provide your business profile document from SSM (Suruhanjaya Syarikat Malaysia - Companies Commission of Malaysia)"
+        collect_passport_myid_tooltip: "For verification purposes, we are able to accept only colour images/ scans of your identity documents."
+      passport_details:
+        authorized_member_proof: "Passport/NRIC of <br> authorized members"
+        proof_label: "Passport/NRIC"

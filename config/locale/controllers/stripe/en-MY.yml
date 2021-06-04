@@ -1,0 +1,5 @@
+en-MY:
+  stripe:
+    user_cards:
+      create:
+        unsupported_cards: "American Express Corporate Cards cannot be used. Please use a different card."

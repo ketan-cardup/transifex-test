@@ -1,0 +1,19 @@
+en:
+  referral_rewards:
+    index:
+      invite_link: "https://discover.cardup.co/invite"
+    refer:
+      unverified_profile: "To be generated once you have completed your profile"
+    refer_filled:
+      savings_progress_bar:
+        title: Your Total Savings
+        label:
+          saved: saved
+      savings_table:
+        title: Your Successful Referrals
+        header:
+          name: Name
+          code: Code
+          code_availability_date: Code Availability Date
+          code_expiry_date: Code Expiry Date
+          status: Status

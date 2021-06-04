@@ -1,0 +1,8 @@
+en:
+  activerecord:
+    errors:
+      models:
+        invoice_content:
+          attributes:
+            base:
+              duplicate: "This looks like a duplicate of invoice %{invoice_number}"

@@ -16,41 +16,29 @@
 #
 # This would use the information in config/locales/es.yml.
 #
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-# MERGE_TODO: Rename this file to en-SG.yml and other */en.yml files to */en-SG.yml
-# at the time of SG < (HK + MY) merging.
-en:
+en-HK:
   hello: "Hello world"
-  country_code: 65
-  currency: SGD
-  currency_denotation: $
-  currency_denotation_raf: S$
+  country_code: 852
+  currency: HKD
+  currency_denotation: HK$
+  currency_denotation_raf: HK$
   default_payment_taken_days: 3
   batch_over_time: 6pm
   referral_campaign_end_date: <%= Date.parse('31-05-2017') %>
-  site_url: https://bit.ly/cardupinvite
-  unbounce_url: discover.cardup.co
-  cardup_address: "CARDUP PTE. LTD.<br/>
-                 1 Keong Saik Road<br/>
-                 The Working Capitol<br/>
-                 Singapore 089109"
+  site_url: https://discover.cardup.hk/invite
+  unbounce_url: discover.cardup.hk
+  cardup_address: "CardUp HK Limited.<br/>
+                  14/F, Manning House,<br>
+                  38-48 Queen’s Road,<br>
+                  Central, Hong Kong"
   cardup_registration_number: 201536690R
   collect_help_link_text: "CardUp"
-  collect_help_link: "http://discover.cardup.co/collect/learn-more?utm_source=collect-partner&utm_medium=collect-partner&utm_campaign=acq_guest-payment&utm_content=receipt"
+  collect_help_link: "http://discover.cardup.hk/collect/learn-more?utm_source=collect-partner&utm_medium=collect-partner&utm_campaign=acq_guest-payment&utm_content=receipt"
   shift_payment: "lets you shift payments currently made by cash, cheque or bank transfers onto your credit cards, allowing you to enjoy the benefits and freedom of card payments wherever you choose."
-  cardup_office_address: "1 Keong Saik Road, The Working Capitol, Singapore 089109"
+  cardup_office_address: "14/F, Manning House, 38-48 Queen’s Road, Central, Hong Kong"
   tooltip_title: CardUp charges a fee to cover card processing costs and to provide a secure and reliable service for your every day use.
   forgot_password: You will receive instructions to reset your account password via the email address above.
   log_in: Log in
@@ -58,24 +46,11 @@ en:
   iso:
     singapore: sg
     hong_kong: hk
-  size_too_large: "We do not support file sizes greater than "
+    malaysia: my
   minimum_amount:
-    visa_mc: For payments of S%{minimum_amount} or less, we charge a minimum fee of S$3.40.
-    amex: For payments of S%{minimum_amount} or less, we charge a minimum fee of S$3.40.
-    international: For payments of S%{minimum_amount} or less, we charge a minimum fee of S%{minimum_fee} for international cards.
-  bulk_upload:
-    upload_csv: Upload CSV
-    download_csv: Download Template
-    upload_csv_info: We currently support only supplier bulk payments. You can submit up to 100 payments each time
-    upload_csv_step_1: "Step 1: Download our Bulk CSV Template"
-    step_1_info_p1: "Please refer to our guide on"
-    step_1_info_p2: "how to prepare your CSV"
-    step_1_info_p3: "for a successful import"
-    upload_csv_step_2: "Step 2: Upload your Bulk CSV File"
-    upload_setup_title: "Finalise payment details"
-    date_tooltip_1: "Date on which your payment(s) will reach the recipient"
-    date_tooltip_2: "Date on which your payment will reach the recipient. Your card will be charged 3 business days prior to ensure the funds reach the recipient on time."
-    invoice_tooltip: "To help us verify your payments, upload an invoice for each payment."
+    visa_mc: For payments of %{minimum_amount} or less, we charge a minimum fee of %{minimum_fee}.
+    amex: For payments of %{minimum_amount} or less, we charge a minimum fee of HK$110.
+    international: For payments of %{minimum_amount} or less, we charge a minimum fee of %{minimum_fee} for international cards.
   event_action:
     sign_in: "Signed In"
     sign_out: "Signed Out"
@@ -96,7 +71,6 @@ en:
     schedule_update: "Schedule updated"
     payment_update: "Payment updated"
     payment_create: "Payment created"
-    payment_failed: "Payment failed"
     select_recipient: "Add Payee selected"
     how_much_page_visited: "HOW MUCH page visited"
     confirm_visit: "Confirm visited"
@@ -133,24 +107,12 @@ en:
     VIDEO_FACIAL_CAPTURE_STEP_1: "User reached the 1st challenge during liveness video capture, challenge_type can be found in eventProperties"
     VIDEO_FACIAL_CAPTURE_STEP_2: "User reached the 2nd challenge during liveness video capture, challenge_type can be found in eventProperties"
     UPLOAD: "User file is uploading"
-    dashboard:
-      download_csv: "Dashboard - Download CSV"
-      banner_learn_more_click: "Dashboard - Banner Learn more Selected"
-      banner_view: "Dashboard - Banner View"
-    sidebar:
-      dashboard: "Navigation Bar - Dashboard"
-      pay: "Navigation Bar - Pay"
-      collect: "Navigation Bar - Collect"
-      cards: "Navigation Bar - Cards"
-      refer_and_save: "Navigation Bar - Refer & save"
-      support: "Navigation Bar - Support"
-      account: "Navigation Bar - Account"
     additional_financing:
       funding_society:
         viewed: "Funding Society page visited"
         request_created: "Finance from Funding Society requested"
-        company_uen_label: "UEN Number"
-        company_uen_length: 10
+        company_uen_label: "CR Number"
+        company_uen_length: 8
     reward:
       starthub: "StarHub"
       honestbee: "honestbee"
@@ -168,10 +130,6 @@ en:
       cardup_boc_family_card_promotion: "CardUp BOC Family Card Promotion"
       uob_prvi_miles: "UOB PRVI Miles"
       uob_prvi_cardup_promotion: "UOB PRVI CardUp Promotion"
-      page_visited: "Refer Save Visited"
-      social_media_button_clicked: "Share Social Media selected"
-      refer_and_save_learn_more_clicked: "Refer Save Learn More clicked"
-      terms_and_conditions_clicked: "Refer Save TC clicked"
     reward_filter:
       cleaners: "Cleaners"
       education: "Education"
@@ -201,7 +159,6 @@ en:
     collect_setup_page_visited: "Collect Setup Page Visited"
     collect_setup_completed: "Collect Setup Completed"
     collect_learn_more_page_visited: "Collect Learn More Page Visited"
-    collect_landing_get_started_clicked: "Collect Landing Page Get Started Clicked"
     myinfo_success: "MyInfo Data Retrieval Success"
     myinfo_error: "MyInfo Data Retrieval Error"
     myinfo_profile_setup: "Verify with MyInfo Selected"
@@ -229,8 +186,6 @@ en:
     guest_payment_created: "Guest Payment Created"
     payment_request_checkout_page_visited: "Payment Request Payment Page Visited - Payor"
     payment_request_payment_created: "Payment Request Payment Created"
-    collect_payment_clicked: "Collect Payment Clicked"
-    collect_setup_clicked_on_dashboard: "Collect Set Up Clicked On Dashboard"
     collect_payment_dropdown_visited: "Collect Payment Dropdown Visited"
     payment_request_dashboard_visited: "Payment Request Dashboard Visited"
     payment_request_form_visited: "Payment Request Form Visited"
@@ -638,26 +593,22 @@ en:
     twitter_title_text: "With CardUp, you can use your existing credit cards to make payments, even where cards are not accepted! Free up cash and earn card rewards, while getting up to %{amount_as_currency} off on your 1st payment with my referral link:"
     facebook_title_text: "With CardUp, I can now use my existing credit cards for payments even where cards are not accepted, letting me free up cash and earn card rewards that I would have otherwise missed out on! Join me on CardUp now - for a limited time, you can get up to %{amount_as_currency} off on your 1st payment with my referral link:"
     whatsapp_fbm_title_text: "Hey, have I told you about CardUp? CardUp lets me use my existing credit cards for payments even where cards are not accepted. This has helped me free up cash and earn more card rewards that I would have otherwise missed out on! Join me on CardUp now - for a limited time, you can get up to %{amount_as_currency} off on your 1st payment with my referral link:"
-  collect_minimum_amount: '9,000'
+  collect_minimum_amount: '54,000'
   average_invoice_amount_options:
-    - 'Less than SGD 1,000'
-    - 'SGD 1,001 - SGD 5,000'
-    - 'SGD 5,001 - SGD 10,000'
-    - 'SGD 10,001 - SGD 50,000'
-    - 'Greater than SGD 50,000'
+    - 'Less than HKD 6,000'
+    - 'HKD 6,001 - HKD 30,000'
+    - 'HKD 30,001 - HKD 60,000'
+    - 'HKD 60,001 - HKD 300,000'
+    - 'Greater than HKD 300,000'
   expected_monthly_volume_option:
-    - 'Less than SGD 10,000'
-    - 'SGD 10,001 - SGD 100,000'
-    - 'SGD 100,001 - SGD 500,000'
-    - 'Greater than SGD 500,000'
+    - 'Less than HKD 60,000'
+    - 'HKD 60,001 - HKD 600,000'
+    - 'HKD 600,001 - HKD 3,000,000'
+    - 'Greater than HKD 3,000,000'
   collect:
     receive_help_text: "I would like to receive tips on how I can maximise the benefits of my credit card"
-  copyright_text: "Copyright © %{year} CardUp Pte Ltd All Rights Reserved"
-  extend:
-    invalid_amount: "Maximum amount for setting up an Extend payment is %{user_extend_amount_limit}"
-  page_unload_confirmation:
-    default: "Are you sure you want to leave this page?"
-    add_recipient: "Are you sure you want to leave this page? Any changes you have made will be lost."
-    making_payment_to: "Are you sure you want to exit the payment setup? All progress will be lost."
-    upload: "Are you sure you want to exit the document upload? All progress will be lost."
-    confirmation: "Are you sure you want to exit the payment confirmation? All progress will be lost."
+  banner:
+    save195:
+      title: 'Limited time offer: Enjoy 1.95% fee (u.p. 2.6%) on unlimited payments'
+      sub_title: 'Set up your payments now with promo code SAVE195 to redeem.(T&Cs apply)'
+  copyright_text: "Copyright © %{year} CardUp HK Limited All Rights Reserved"

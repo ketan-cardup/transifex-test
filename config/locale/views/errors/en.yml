@@ -1,0 +1,13 @@
+en:
+  errors:
+    not_found:
+      page_title: 'Page not found'
+      description:
+        text: "Oops! We can’t seem to find the page you’re looking for. Try going back to the previous page or refer to our %{faq_link} for more information."
+        faq_link_text: "FAQs"
+      back_link_text: "Go back to Home"
+    internal_server_error:
+      page_title: 'Something went wrong...'
+      description:
+        text: "We are working on fixing the problem. Please try again in a few minutes."
+      back_link_text: "Go back to Home"

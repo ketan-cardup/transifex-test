@@ -1,0 +1,40 @@
+en-HK:
+  activerecord:
+    errors:
+      models:
+        schedule:
+          attributes:
+            invoice:
+              blank_for_supplier: "Please upload the necessary document(s) to continue"
+              blank_for_payroll: "Please upload the necessary document(s) to continue"
+            reference:
+              blank_for_generic: "Please enter a valid payment reference"
+              invalid_format_generic: "We do not support %{unsupported_char_list} in the payment %{validate_attribute} field."
+              blank_for_insurance: "Please enter a valid policy reference"
+              invalid_format_insurance: "We do not support %{unsupported_char_list} in the policy %{validate_attribute} field."
+              invalid_format_stamp_duty: "Please enter a valid 12 digit Shroff Account Number."
+              blank_stamp_duty: "Please enter a valid 12 digit Shroff Account Number."
+              blank_property_tax: "Please enter a valid 11 digit Shroff Account Number."
+              invalid_format_property_tax: "Please enter a valid 11 digit Shroff Account Number."
+              wrong_length_property_tax: "Please enter a valid 11 digit Shroff Account Number."
+              blank_gst: "Please enter a valid 11 digit Shroff Account Number."
+              invalid_format_gst: "Please enter a valid 11 digit Shroff Account Number."
+              wrong_length_gst: "Please enter a valid 11 digit Shroff Account Number."
+              blank_corporate_tax: "Please enter a valid 11 digit Shroff Account Number."
+              invalid_format_corporate_tax: "Please enter a valid 11 digit Shroff Account Number."
+              wrong_length_corporate_tax: "Please enter a valid 11 digit Shroff Account Number."
+              invalid_format_tax_generic: "Please enter a valid 11 digit Shroff Account Number."
+              invalid_policy_reference: 'Policy Reference should contain valid HKID'
+            amount:
+              blank: "Please enter your payment amount"
+            start_date:
+              blank: "Please enter a due date for your payment in dd/mm/yyyy format"
+              earlier_start_date: "You cannot select a due date earlier than %{payment_start_date}"
+              invalid_start_date: "Please enter a due date for your payment in dd/mm/yyyy format"
+            descriptor:
+              invalid_format: "We do not support %{unsupported_char_list} in the %{validate_attribute} field."
+            extend:
+              plan_one:
+                invalid_start_date: "Extend payment due date must be set as the next working day"
+              plan_two:
+                invalid_start_date: "Extend payment due date must be set as the next 3 working days"

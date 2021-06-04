@@ -1,0 +1,16 @@
+en-HK:
+  activerecord:
+    errors:
+      models:
+        company:
+          attributes:
+            name:
+              blank: "Please enter your company’s registered name"
+              invalid_format: "We do not support %{unsupported_char_list} in the company %{validate_attribute} field."
+            trade_name:
+              blank: "Please enter your company’s registered name"
+              invalid_format: "We do not support %{unsupported_char_list} in the company %{validate_attribute} field."
+            uen:
+              blank: "Please enter your company’s CRN"
+              invalid: "Please enter a valid CRN"
+              taken: "This CRN is already registered with CardUp"

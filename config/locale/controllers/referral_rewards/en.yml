@@ -1,0 +1,16 @@
+en:
+  referral_rewards:
+    send_referral_email:
+      email:
+        blank: "Please enter email"
+        invalid: "Please enter valid email"
+        sent_successfully: "Referral email has been sent successfully!"
+        error: "Referral email not sent. An error occured."
+    check_user_detail_exists:
+      notice: "Please complete your details to start earning referral rewards."
+    social_share_button:
+      titles:
+        facebook: 'Share to Facebook'
+        twitter: 'Share to Twitter'
+        whatsapp: 'Share to WhatsApp'
+        email: 'Share to Email'

@@ -1,0 +1,34 @@
+en:
+  billing_addresses:
+    title: Account Settings
+    side_bar_option: Your billing addresses
+    sub_title: Billing Address
+    form:
+      labels:
+        address_line_1: 'Address Line 1'
+        address_line_2: 'Address Line 2'
+        city: 'City'
+        state: 'State'
+        country: 'Country'
+      help_block:
+        address: Your address is needed to help us process your payment. No communication will be sent to this address unless you opt in to receive marketing.
+        address_line_1: 'Kindly input your block and unit number. e.g. "Blk 123, #01-01"'
+        address_line_2: 'Kindly input your street name. e.g. "Hougang Street 10"'
+      country_prompt: "Select Country"
+      buttons:
+        back: "Back"
+        save: "Save Address"
+    postcode_row:
+      labels:
+        postcode: 'Postcode'
+    index:
+      buttons:
+        add: Add new
+        edit: Edit address
+        delete: Delete address
+      table:
+        header: Address
+      delete_billing_address_modal:
+        title: Delete billing address
+        cancel_confirm_message: Are you sure you want to delete this billing address? Please update any associated stored cards after deleting this address.
+        button: Confirm

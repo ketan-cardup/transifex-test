@@ -1,0 +1,31 @@
+en-MY:
+  activerecord:
+    errors:
+      models:
+        user_detail:
+          attributes:
+            first_name:
+              blank: "Please enter your first name"
+              invalid_format: "We do not support %{unsupported_char_list} in the %{validate_attribute} field."
+            last_name:
+              blank: "Please enter your last name"
+              invalid_format: "We do not support %{unsupported_char_list} in the %{validate_attribute} field."
+            telephone:
+              blank: 'Please enter your mobile number and click "Verify"'
+              wrong_length: 'Please enter your mobile number and click "Verify"'
+              taken: "This number is already registered with us. Please use a different number."
+            passport_no:
+              blank: "Please enter your passport number"
+              taken: "An account with this passport number already exists. Please use a different passport number to continue."
+            fin:
+              blank: "Please enter your NRIC/FIN number"
+              invalid: "Please enter a valid NRIC/FIN number"
+              taken: "An account with this NRIC already exists. Please use a different NRIC to continue."
+            date_of_birth:
+              blank: "Please enter your date of birth in dd/mm/yyyy format"
+              invalid_date_message: "Please enter your date of birth in dd/mm/yyyy format"
+              on_or_before_message: "You must be over 18 to register for this service"
+            address1:
+              blank: "Please enter your address"
+            postcode:
+              blank: "Please enter your postcode"

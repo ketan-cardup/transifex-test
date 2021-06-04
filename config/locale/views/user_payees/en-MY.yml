@@ -1,0 +1,4 @@
+en-MY:
+  user_payees:
+    form:
+      verify_payment_hire: "To help us verify your loan repayment, upload 1) your hire purchase agreement and 2) proof of either your loan repayment account or your loan provider's bank details (.png, .jpg or .pdf)."

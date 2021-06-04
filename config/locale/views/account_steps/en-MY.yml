@@ -1,0 +1,27 @@
+en-MY:
+  account_steps:
+    account_details:
+      form:
+        fin_label: 'NRIC'
+        expiry_date_pass_label: 'Expiry date of NRIC'
+    cybs:
+      card_help_text: "To ensure it’s really you setting up this payment we’ll ask you to verify your card with an OTP. The payment will not be charged yet.<br><br>Please note that you can only add a Malaysia issued card to transact."
+    user_payee:
+      misc_uen_label: 'Business Registration No.'
+      misc_uen_placeholder: 'Business Registration No.'
+      misc_uen_help_text: "(Can't find the BR no.?: Go to <a href='https://www.ssm.com.my/Pages/Quick_Link/e-Search.aspx' target: '_blank' rel: 'noopener noreferrer'>https://www.ssm.com.my/Pages/Quick_Link/e-Search.aspx</a> and search for your company's name)"
+      verify_payment_hire: "To help us verify your loan repayment, upload 1) your hire purchase agreement and 2) proof of either your loan repayment account or your loan provider's bank details (.png, .jpg or .pdf)."
+    stripe:
+      domestic_card_only: "To ensure it’s really you setting up this payment we’ll ask you to verify your card with an OTP. The payment will not be charged yet.<br><br>Please note that you can only add a Malaysia issued card to transact."
+    temp_payments:
+      processing_fees_help_link: "http://cardupmy.zendesk.com/hc/en-us/articles/360033521912-What-is-the-processing-fee"
+      currency_unit: "RM"
+    upload:
+      tax_support_link_text: "Statement of Account"
+      verify_payment_income_tax: "To help us verify your payment, please upload an up-to-date copy of your %{tax_support_link}, showing your (1) Name (2) NRIC (3) Outstanding balance (4) Date of outstanding balance."
+      verify_payment_property_corporate_tax: "To help us verify your payment, please upload an up-to-date copy of your %{tax_support_link}, showing your (1) Name (2) NRIC (3) Outstanding balance (4) Date of outstanding balance."
+      verify_payment_payroll: "To help us verify your payment, upload your latest EPF Record and payroll system records showing your employees’ names and salaries (.png, .jpg or .pdf)."
+    add_recipient:
+      uen_label_text:
+        supplier: 'Supplier Company Registration No.'
+        misc: "Company UEN/Business Registration Number"

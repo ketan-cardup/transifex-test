@@ -1,0 +1,19 @@
+en:
+  user_payments:
+    edit:
+      verify_payment_supplier: "To help us verify your payment, upload your invoice (.png, .jpg or .pdf)."
+    index:
+      titles:
+        recipients: My recipients
+        payments: Payment List
+      buttons:
+        back: Back
+    payments:
+      table:
+        headers:
+          id: Payment ID
+          reference: Payment Reference
+          date: Date Added
+          docs:
+            supporting: Supporting Documents
+            invoices: Invoices

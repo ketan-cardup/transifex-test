@@ -1,0 +1,287 @@
+---
+en:
+  dashboard:
+    accessdenied:
+      support_link_text: "Contact Support"
+    setup_profile:
+      no_payments: "You have no payments scheduled yet"
+      first_payment: "It only takes a few minutes to set up your first payment!"
+    edit_payment: "You will be editing all %{future_payments_count} payments to %{payee_name} scheduled from %{start_date} to %{end_date}."
+    edit_schedule:
+      promo_code: "See which payments have the promo code applied on your dashboard."
+    page_index:
+      to_show_cancel_confirm_message:
+        edit_payment_link_text:
+          one: "edit your payment"
+          other: "edit your payments"
+        cancelling_payment_text: "Are you sure you want to cancel this payment? You can also %{edit_payment_help_link} to update the amount, due dates, promo codes etc."
+    approval_modal_form:
+      terms_of_service_link_text: "Terms of Service"
+      confirm_terms_of_service_text: "By clicking confirm, you accept that these payments cannot be refunded by CardUp directly (in accordance with the %{terms_link}). You can cancel/edit these payments from your dashboard before the payment charged date."
+      all_payments_radio_button_text: "%{name} all future payments in this series"
+      only_payment_radio_button_text: "%{name} just this one payment"
+      rejection_disclaimer: "<p class='hide one-payment'>By clicking below, you are rejecting this payment</p><p class='hide future-payments'>By clicking below, you are rejecting this payment and all future payments in this series</p>"
+      acknowledge_help_text: "By clicking confirm you acknowledge that CardUp is not an agent of %{tax_authority}, and makes no representation that it is acting as one. CardUp is only a payment service provider and neither assesses nor collects tax."
+      confirm_help_text_link_url_text: "Terms of Service"
+      confirm_help_text: "Clicking confirm will also schedule these payments. You accept that, in accordance with our %{confirm_help_link}, payments made via CardUp can not be refunded from CardUp directly. For refund requests, please contact the recipient of this payment. These payments can be cancelled at any time prior to the payment charged date, from the CardUp dashboard."
+      large_express_payment_msg: "Important: As your payment is larger than <span id='express_large_amount'></span> we will deliver them as <span id='express_large_amount_num'></span> separate transactions to your recipient. Please inform your recipients to ensure smooth reconciliation of your payment."
+      submit_button_text: "Confirm"
+    approval_payments:
+      table_title: "For Approval"
+      column_fields:
+        payment_id: "Payment ID"
+        payment_details: "Payment Details"
+        amount_and_gst: "Amount & GST"
+        cardup_fee: "CardUp Fee"
+        total: "Total"
+        payment_authorized: "Payment Authorized"
+        payment_charged: "Payment Charged"
+        payment_due: "Payment Due"
+        status: "Status"
+        card: "Card"
+      payment_authorized_tooltip: "This is the date at which payment will be authorized on your card"
+      status_tooltip: "This is the progress of your payment. Check our FAQs for details"
+    cancelled_payments:
+      table_title: "Cancelled"
+      column_fields:
+        payment_id: "Payment ID"
+        payment_details: "Payment Details"
+        amount_and_gst: "Amount & GST"
+        cardup_fee: "CardUp Fee"
+        total: "Total"
+        payment_authorized: "Payment Authorized"
+        payment_charged: "Payment Charged"
+        payment_due: "Payment Due"
+        status: "Status"
+        card: "Card"
+      payment_authorized_tooltip: "This is the date at which payment will be authorized on your card"
+      status_tooltip: "This is the progress of your payment. Check our FAQs for details"
+    past_payments:
+      table_title: "Past"
+      column_fields:
+        payment_id: "Payment ID"
+        payment_details: "Payment Details"
+        amount_and_gst: "Amount & GST"
+        cardup_fee: "CardUp Fee"
+        total: "Total"
+        payment_authorized: "Payment Authorized"
+        payment_charged: "Payment Charged"
+        payment_due: "Payment Due"
+        status: "Status"
+        card: "Card"
+      payment_authorized_tooltip: "This is the date at which payment will be authorized on your card"
+      status_tooltip: "This is the progress of your payment. Check our FAQs for details"
+      load_more_button: "More Payments"
+    dashboard_payments:
+      column_fields:
+        payment_id: "Payment ID"
+        payment_details: "Payment Details"
+        amount_and_gst: "Amount & GST"
+        cardup_fee: "CardUp Fee"
+        total: "Total"
+        payment_authorized: "Payment Authorized"
+        payment_charged: "Payment Charged"
+        payment_due: "Payment Due"
+        status: "Status"
+        card: "Card"
+      payment_authorized_tooltip: "This is the date at which payment will be authorized on your card"
+      status_tooltip: "This is the progress of your payment. Check our FAQs for details"
+    failed_payments:
+      table_title: "Failed"
+      column_fields:
+        payment_id: "Payment ID"
+        payment_details: "Payment Details"
+        amount_and_gst: "Amount & GST"
+        cardup_fee: "CardUp Fee"
+        total: "Total"
+        payment_authorized: "Payment Authorized"
+        payment_charged: "Payment Charged"
+        payment_due: "Payment Due"
+        status: "Status"
+        card: "Card"
+      payment_authorized_tooltip: "This is the date at which payment will be authorized on your card"
+      status_tooltip: "This is the progress of your payment. Check our FAQs for details"
+    xero_payments:
+      table_title: "Receivables"
+      column_fields:
+        payment_id: "Payment ID"
+        payment_details: "Payment Details"
+        amount_and_gst: "Amount & GST"
+        cardup_fee: "CardUp Fee"
+        total: "Total"
+        payment_authorized: "Payment Authorized"
+        payment_charged: "Payment Charged"
+        payment_due: "Payment Due"
+        status: "Status"
+        card: "Card"
+      payment_authorized_tooltip: "This is the date at which payment will be authorized on your card"
+      status_tooltip: "This is the progress of your payment. Check our FAQs for details"
+    dashboard_approval_payments:
+      dropdown:
+        approve_button_text: "Approve"
+        reject_button_text: "Reject"
+        rejected_text: "Rejected"
+    dashboard_content_header:
+      dropdown_cta_text: "Payables"
+      dropdown:
+        payables: "Payables"
+        receivables: "Receivables"
+      download_csv_cta_text: "Download CSV"
+      create_payment_csv_cta_text: "Create Payment"
+    dashboard_empty_payments_table:
+      empty_table_content: "You have no %{empty_table_content}"
+    dashboard_payments_table:
+      dropdown:
+        edit_view_cta_text: "View/Edit"
+        cancel_cta_text: "Cancel"
+      cannot_edit_tooltip: "You cannot edit a payment which has been linked to other payment(s) for payout"
+    edit_multiple_payment:
+      modal_title: "Edit Schedule"
+      radio_button:
+        edit_multiple_payments: "Edit all future payments in this series"
+        edit_one_payment: "Edit just this one payment"
+    load_payment_link:
+      more_payments_cta_text: "More Payments"
+    payables:
+      nav_tabs:
+        upcoming: "Upcoming"
+        previous: "Previous"
+        failed: "Failed"
+        cancelled: "Cancelled"
+        approval: "For Approval"
+        xero_receivables: "Receivables"
+    modal_form:
+      radio_button:
+        action_on_multiple_payments: "%{action} all future payments in this series"
+        action_on_one_payment: "%{action} just this one payment"
+      submit_cta_text: "Confirm"
+      confirmation_message: "By clicking below, you confirm you are pausing this payment to <span id='show_%{status}_recipient_name'></span> on <span id='show_%{status}_payment_due_date'></span>. Payments can be unpaused at anytime prior to payment taken date."
+    personal_carousel:
+      banners:
+        income_tax:
+          img_alt: "Income tax offer Banner"
+          tag: "New"
+          header: "Get lower fees this income tax season"
+          text: "Use code CUTAX2021 to enjoy 1.75% fee on your income tax payment"
+        get225_promo:
+          img_alt: "GET225 Promo banner"
+          tag: "Promo"
+          header: "Save even more with lower fees in 2021!"
+          text: "Use code GET225 for 2.25% fee on all your payments"
+        save_rent:
+          img_alt: "Save Rent Banner"
+          tag: "Promo"
+          header: "Turn your rent payments into card rewards"
+          text: "Use code SAVERENT179 to enjoy 1.79% fee on rent payments"
+        helper_salary:
+          img_alt: "Helper Salary Banner"
+          tag: "Feature"
+          header: "Helper salary payment now available on CardUp!"
+          text: "Rack up even more credit card rewards with this new payment type"
+        next_day_payment:
+          img_alt: "Next Day Payment Banner"
+          tag: "Feature"
+          header: "Have an urgent payment to make?"
+          text: "Next Day payment option available at just an additional %{additional_fee}% fee"
+      learn_more_cta: "Learn more"
+      terms_conditions_apply_text: "(T&Cs apply)"
+    business_carousel:
+      banners:
+        biz_supplier:
+          img_alt: "Biz Supplier Banner"
+          tag: "Promo"
+          header: "Enjoy discounts on supplier invoices and payroll"
+          text: "Use code BIZ145 for 1.45% on supplier invoices & payroll"
+        biz_rent:
+          img_alt: "BizRent Banner"
+          tag: "Promo"
+          header: "Our commitment to businesses through this period"
+          text: "Use code BIZRENT8 for 0.8% fee on all business rent payments"
+        biz_tax:
+          img_alt: "Biz tax Banner"
+          tag: "Promo"
+          header: "Get lower fees on corporate tax payments"
+          text: "Use code BIZTAX145 for 1.45% fee for all corporate tax payments"
+        international_payment:
+          img_alt: "International Payment Banner"
+          tag: "Feature"
+          header: "Make international payments on CardUp"
+          text: "Learn more about the supported countries and how you can get started"
+        next_day_payment:
+          img_alt: "Next Day Payment Banner"
+          tag: "Feature"
+          header: "Have an urgent payment to make?"
+          text: "Next Day payment option available at just an additional %{additional_fee}% fee"
+      learn_more_cta: "Learn more"
+      terms_conditions_apply_text: "(T&Cs apply)"
+    business_dashboard:
+      dashboard_title: "Let’s get you started"
+      collect_setup_notice: "Thank you! Our team will get back in 1 business day to verify your account for payment collection. Meanwhile, feel free to pay your bills with CardUp."
+      buttons:
+        schedule_payment: "SCHEDULE PAYMENT"
+        click_here: "Click here"
+      confirm_email_text: "Please confirm your email, %{send_email_link} to get confirmation link."
+    consumer_dashboard:
+      dashboard_title: "Let’s get you started"
+    amount_gst:
+      tooltip_title: "Recipient gets: %{amount}"
+    collect_payments:
+      column_fields:
+        payment_reference: "Payment Reference"
+        payor_name: "Payor Name"
+        payment_id: "Payment ID"
+        amount: "Amount"
+        cardup_fee: "CardUp fee"
+        amount_to_be_received: "Amount to be received"
+        payment_created: "Payment created"
+        payment_due: "Payment due"
+        payout_expected: "Payout expected"
+        status: "Status"
+      tooltip:
+        cardup_fee: "CardUp fee that your business pays, if any."
+        amount_to_be_received: "Amount that will be paid into your bank account"
+        payment_created: "Date at which payment was created"
+        payment_due_expected: "Date at which funds will arrive in your bank account"
+        status: "This is the progress of your payment. Check our FAQs for details"
+    collect_payments_table:
+      paid_by_payor: "Paid by Payor"
+    collect_setup_path:
+      setup_button: "Set up"
+    partial_refund_label:
+      refund_text: "A partial refund of %{amount} has been issued"
+    receivables:
+      nav_tabs:
+        upcoming: "Upcoming"
+        previous: "Previous"
+        failed: "Failed"
+        cancelled: "Cancelled"
+    payables_setup:
+      img_alt: "Make Payment"
+      title: "Create your first payment"
+      description: "Start using your credit card to the fullest by <br/> setting up your first payment today!"
+      create_payment_cta: "Create payment"
+    receivables_load_more_payment_link:
+      load_more_cta: "More Payments"
+    receivables_setup:
+      title: "Start collecting payments"
+      description: "Get set up to accept credit card payments<br>from your customers."
+      learn_more_cta: "Learn more"
+    schedule_collect_data:
+      tab_titles:
+        processing: "Processing"
+        next_7_days: "Next 7 days"
+        next_30_days: "Next 30 days"
+        more_than_1_month: "More than 1 month"
+    schedule_data:
+      tab_titles:
+        processing: "Processing"
+        next_7_days: "Next 7 days"
+        next_30_days: "Next 30 days"
+        more_than_1_month: "More than 1 month"
+      more_payments_cta: "More Payments"
+    uneditable_payment:
+      img_alt: "Bank Card"
+    payee_and_payment_info:
+      mcst_fee: "MCST fees"
+      view_individual_payments: "View individual payments"
+      tax_property: "Property Tax"

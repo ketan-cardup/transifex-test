@@ -1,0 +1,25 @@
+en-HK:
+  confirmed_email: Haven't confirmed your email?
+  confirmed_email_collect: Verify your email address to start collecting payments
+  sending_otp:
+    send_otp: "Enter the OTP that was sent to: %{telephone_number}"
+    resend_otp: "Resend OTP"
+  resend_email:
+    resend_email_link_text: "Resend email"
+    resend_email_text: "Email sent to %{email}. %{resend}"
+  verify_email:
+    verify_email_link_text: Meanwhile please verify your email. %{send_email_link} to get verification link.
+    click_here_text: "Click here"
+  search_uen:
+    search_uen_link_text: "here"
+    search_uen_text: "Search for your recipient’s CRN %{search_uen_link}."
+  card_charge_date: "Date on which your card will be charged"
+  payment_credit_date: "Date on which your payment will reach your recipient"
+  cardup_fee: "To provide a secure and reliable service that enables you to use your card for this payment, we charge a fee"
+  refer:
+    raf_rab:
+      description:
+        raf: Give HK$%{referral_discount} and you save HK$%{referral_reward_discount}
+        rab: Give HK$%{referral_discount} and you save HK$%{referral_reward_discount}
+  dropdown_placeholder:
+    select: 'Select'

@@ -1,0 +1,16 @@
+en:
+  errors:
+    messages:
+      taken_in_past: "Please use a password that has not been used before."
+      equal_to_current_password: "Must be different to your current password!"
+      #password_format: "must be atleast 8 charcters long and include at least 1 big, small letter, digit and symbol (@#$%^&+=)"
+      password_format: "Password must be at least 8 characters long and include at least 1 digit or symbol (!@#$%^)"
+      confirmation: "Confirm password should match with new password"
+  devise:
+    invalid_captcha: "The captcha input is not valid!"
+    password_expired:
+      updated: "Your new password is saved."
+      change_required: "Your password is expired. Please renew your password!"
+    failure:
+      session_limited: 'Your login credentials were used in another browser. Please log in again to continue in this browser.'
+      expired: 'Your account has expired due to inactivity. Please contact the site administrator.'

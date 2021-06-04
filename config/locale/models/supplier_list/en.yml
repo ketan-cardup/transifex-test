@@ -1,0 +1,12 @@
+en:
+  activerecord:
+    errors:
+      models:
+        supplier_list:
+          attributes:
+            document:
+              size_too_large: "We do not support file sizes greater than 5 MB."
+            document_file_name:
+              invalid_format: "We do not support special characters for filename. Please rename your file and upload it again."
+            document_content_type:
+              invalid_format: "Please upload a file in csv format"

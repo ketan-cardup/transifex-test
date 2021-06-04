@@ -1,0 +1,96 @@
+en:
+  account_steps:
+    refer_a_friend_page:
+      payment_created_with_unverified_payee: "Congratulations, your CardUp payments have been set up!"
+      payment_created_with_verified_payee: "Congratulations, your CardUp payments have been set up!"
+      payment_setup:
+        one: "You have successfully set up %{count} payment to %{company_name}"
+        other: "You have successfully set up %{count} payments to %{company_name}"
+    payment_created:
+      payment_created_title:
+        one: "Payment created!"
+        other: "Payments created!"
+      payment_created_text:
+        one: "Hang tight, you’ll receive email updates on the status of the payment."
+        other: "Hang tight, you’ll receive email updates on the status of the payments."
+      buttons:
+        back: Back to Payments
+        create_another_payment: Create Another Payment
+      alt:
+        payments: Payments
+    edit_schedule:
+      payment_updated: "Your payment is updated successfully"
+    temp_payments:
+      currency_unit: "SGD"
+    extend_learn_more_modal:
+      step_one: "You authorise your card for the full amount plus a CardUp fee."
+      step_two: "Your recipient will get paid on the due date you select."
+      step_three: "Your credit card will be charged %{term_days} days after the due date."
+      step_four: "Your credit card bill will be due up to 60 days after the due date."
+      plan_one:
+        how_it_works: "How it works"
+      plan_two:
+        how_it_works: "Extend your payments by up to 120 days"
+      alt:
+        authorise_card: Authorise Card
+        recipient_paid: Recipient Paid
+        card_charged: Card Charged
+        credit_card_bill: Credit Card Bill
+    user_payee:
+      verify_payment_landlord: "To help us verify your payment, upload the pages of your signed tenancy agreement that contain <u>your name</u>, and your <u>landlord’s name</u> and <u>bank account details</u> (.png, .jpg or .pdf)."
+      verify_payment_insurer: "To help us verify your insurer’s bank details, upload your invoice / insurance contract (.png, .jpg or .pdf)."
+      verify_payment_hire: "To help us verify your loan repayment, upload 1) your hire purchase agreement and 2) %{provider_proof_link} (.png, .jpg or .pdf)."
+      verify_payment_hire_link_text: "proof of either your loan repayment account or your loan provider's bank details"
+      verify_payment_link_text: "bank account statement"
+      verify_payment_payroll: "To help us verify your company’s bank details, upload your company’s %{payroll_support_link} (.png, .jpg or .pdf)."
+      here_link_text: "here"
+      verify_payment_helper: "To help us verify your payment, upload your helper's MOM-issued Work Permit card (back) and your helper’s bank statement (.png, .jpg or .pdf)."
+      verify_payment_parking: "To help us verify your recipient’s bank details, upload your invoice / insurance contract (.png, .jpg or .pdf)."
+      verify_payment_generic: "To help us verify your recipient’s bank details, upload your invoice (.png, .jpg or .pdf)."
+      verify_payment_misc: "To help us verify your recipient’s bank details, upload your payment advice e.g. an invoice (.png, .jpg or .pdf)."
+      pending_approval_ack_text: "Make sure your recipient’s bank details are correct as we’ll send your payment here."
+      misc_uen_label: 'Company UEN/Business Registration Number'
+      misc_uen_placeholder: 'Company UEN/Business Registration Number'
+      misc_uen_help_text: "Search for your recipient’s UEN <a href='https://www.uen.gov.sg/ueninternet/faces/pages/uenSrch.jspx?_afrLoop=998819650200328&_afrWindowMode=0&_adf.ctrl-state=uvbyvolnc_21' target='_blank' rel='noopener noreferrer'>here</a>."
+    user_payee_form:
+      email_link_text: "verify your email address"
+      verify_email: "As you will receive important payment status updates via email, %{email_link} before you start scheduling payments."
+      payroll_payment: "The payroll amount will be credited to your company’s bank account. You will need to pay out to your employees as usual."
+      company_details: "Enter your company’s bank account details as the payroll amount will be credited to your company’s account."
+      pending_approval_ack_text: "Make sure your recipient’s bank details are correct as we’ll send your payment here."
+      verify_payment_landlord: "To help us verify your payment, upload the pages of your signed tenancy agreement that contain <u>your name</u>, and your <u>landlord’s name</u> and <u>bank account details</u> (.png, .jpg or .pdf)."
+      here_link_text: "here"
+      misc_supported_payment: "We do not support payments to SP Services and LTA. See the full list of supported payments %{supported_payment_link}."
+    account_details:
+      form:
+        fin_label: 'NRIC/FIN'
+        expiry_date_pass_label: 'Expiry date of FIN'
+    cybs:
+      card_help_text: "To ensure it’s really you setting up this payment we’ll ask you to verify your card with an OTP. The payment will not be charged yet."
+    upload:
+      tax_support_link_text: "Statement of Account"
+      verify_payment_electricity: "To help us verify your payment, upload your electricity invoice (.png, .jpg or .pdf)."
+      verify_payment_xb: "To help us verify your payment, please ulpoad an up-to-date copy of your payment advice for Cross-border payment."
+      verify_payment_supplier: "To help us verify your payment, upload your invoice (.png, .jpg or .pdf)."
+      verify_payment_misc: "To help us verify your recipient’s bank details, upload your payment advice e.g. an invoice (.png, .jpg or .pdf)."
+      verify_payment_generic: "To help us verify your recipient’s bank details, upload your invoice (.png, .jpg or .pdf)."
+      verify_payment_income_tax: "To help us verify your payment, upload your up-to-date %{tax_support_link} showing your name, NRIC, outstanding balance and date of outstanding balance (.png, .jpg or .pdf)."
+      verify_payment_property_corporate_tax: "To help us verify your payment, upload your up-to-date %{tax_support_link} showing your outstanding balance and date of outstanding balance (.png, .jpg or .pdf)."
+      verify_payment_stamp_duty: "To help us verify your payment, upload your up-to-date Payment Slip (.png, .jpg or .pdf)."
+      verify_payment_gst: "To help us verify your payment, upload your up-to-date Payment Slip or Tax Bill (.png, .jpg or .pdf)."
+      verify_payment_link_text: "latest CPF Record and payroll system records"
+      verify_payment_payroll: "To help us verify your payment, upload your %{payroll_support_link} showing your employees’ names and salaries (.png, .jpg or .pdf)."
+    add_recipient:
+      uen_label_text:
+        supplier: "Supplier UEN/Business Registration Number"
+        misc: "Company UEN/Business Registration Number"
+      mortgage_help_text: "Your Loan Repayment Account can either be: <br/> 1. The bank account indicated by your loan provider to pay directly to, or <br/> 2. A bank account that you have set up a GIRO arrangement to pay from."
+    form:
+      title: Payment Details
+      buttons:
+        back: Back
+        continue: Continue
+        next: Next
+    gst_row:
+      header:
+        gst: GST

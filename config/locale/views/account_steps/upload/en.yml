@@ -1,0 +1,47 @@
+en:
+  account_steps:
+    upload:
+      payee_level_upload_help_text:
+        rent: "To help us verify your payment, upload the pages of your signed tenancy agreement that contain <u>your name</u>, and your <u>landlord’s name</u> and <u>bank account details</u> (.png, .jpg or .pdf)."
+        insurance: "To help us verify your insurer’s bank details, upload your invoice / insurance contract (.png, .jpg or .pdf)."
+        car_loan_link_text: "proof of either your loan repayment account or your loan provider's bank details"
+        car_loan: "To help us verify your loan repayment, upload 1) your hire purchase agreement and 2) %{provider_proof_link} (.png, .jpg or .pdf)."
+        mortgage: "To help us verify your Mortgage Loan payment, please upload (.png, .jpg or .pdf) <br/>1) Your Mortgage Loan agreement <br/>2) Proof of your Loan Repayment Account (either bank statement or an acknowledgement of a GIRO arrangement with the bank details)"
+        payroll_link_text: "bank account statement"
+        payroll: "To help us verify your company’s bank details, upload your company’s %{payroll_support_link} (.png, .jpg or .pdf)."
+        helper_salary: "To help us verify your payment, upload your helper's MOM-issued Work Permit card (back) and your helper’s bank statement (.png, .jpg or .pdf)."
+        parking: "To help us verify your recipient’s bank details, upload your invoice / insurance contract (.png, .jpg or .pdf)."
+        generic: "To help us verify your recipient’s bank details, upload your invoice (.png, .jpg or .pdf)."
+        misc: "To help us verify your recipient’s bank details, upload your payment advice e.g. an invoice (.png, .jpg or .pdf)."
+      payee_level_upload_component_title:
+        parking: "Invoice / Insurance Contract"
+        mcst: "Invoice"
+        rent: "Tenancy Agreement"
+        insurance: "Invoice / Insurance Contract"
+        education: "Invoice"
+        payroll: "Bank Account Statement"
+        car_loan: "Payment Advice"
+        helper_salary: Helper's MOM-issued Work Permit Card
+        mortgage: "Payment Advice"
+        default: "Proof Of Bank Account Details"
+      payee_level_future_purpose_alert_text:
+        parking: "These documents will be used for current and future season parking payments"
+        mcst: "These documents will be used for current and future MCST payments"
+        rent: "These documents will be used for current and future rent payments"
+        insurance: "These documents will be used for current and future insurance payments"
+        education: "These documents will be used for current and future education payments"
+        car_loan: "These documents will be used for current and future car loan payments"
+        mortgage: "These documents will be used for current and future mortgage payments"
+        default: "These documents will be saved for this and future payments verifications"
+      schedule_level_upload_component_title:
+        payroll: "Payment Advice"
+        income_tax: "Statement of Account"
+        property_tax: "Statement of Account"
+        corporate_tax: "Statement of Account"
+        stamp_duty: "Payment Slip"
+        gst: "Payment Slip / Tax Bill"
+        electricity: "Electricity Invoice"
+        default: "Invoice"
+      upload_page_title: "Upload Documents"
+      upload_document_text: "Upload Document"
+      submit_button_text: "Continue"

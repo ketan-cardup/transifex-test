@@ -1,0 +1,6 @@
+en:
+  account_steps:
+    credit_card_dropdown:
+      labels:
+        add_credit_card: Add Credit Card
+        my_cards: "My Cards"

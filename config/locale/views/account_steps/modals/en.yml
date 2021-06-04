@@ -1,0 +1,15 @@
+en:
+  account_steps:
+    modals:
+      bulk_upload_not_enabled:
+        title: Make multiple payments at a go!
+        information_block_text: Do you often have many payments to make at a go? Get in touch with us to know more about our Bulk Upload feature
+        link:
+          mail_to: mailto:hello@cardup.co
+          text: Speak to our team
+      x_border_recipient_being_verified:
+        okay_cta: Okay
+        labels:
+          verified_text: "Your new international recipient <b>%{user_payee_name}</b> is being verified"
+        description: "To ensure your money stays safe, additional verification is required for overseas recipients. This normally takes up to 1 business day. Once your recipient is verified, we will notify you via email and you can make payment. For any questions, reach us at %{click_here}"
+

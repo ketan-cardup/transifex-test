@@ -1,0 +1,5 @@
+en:
+  payable_documents:
+    document_viewer:
+      not_supported_file_text: "This browser does not support this file type. Please download the file to view it"
+      download_link_text: "Download File"

@@ -1,0 +1,18 @@
+en-MY:
+  user_cards:
+    credit_name: Credit Card Number
+    credit_holder: Card Holder Name
+    card_country: Card Country
+    cards_title: View and manage your cards here
+    add_card: Add Card
+    delet_card: Deleting your card ?
+    gp_config_help: If you want to edit your saved card details, please write in to
+    delete_confirm: If you delete this card, any payments associated with this card will be cancelled automatically
+    delete_confirm_with_payment: If you delete this card, %{payment_count} payments associated with this card will be cancelled automatically
+    cybs:
+      card_help_text: To ensure it’s really you setting up this payment we’ll ask you to verify your card with an OTP. The payment will not be charged yet. Please note that you can only add a Malaysia issued card to transact.
+    stripe:
+      excluded_cards: "Please note that you can use only Visa/Mastercard cards"
+      domestic_card_only: "To ensure it’s really you setting up this payment we’ll ask you to verify your card with an OTP. The payment will not be charged yet.<br><br>Please note that you can only add a Malaysia issued card to transact."
+    stripe_form:
+      excluded_cards: "Please note that you can use only Visa/Mastercard cards"

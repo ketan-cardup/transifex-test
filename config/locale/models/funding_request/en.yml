@@ -1,0 +1,9 @@
+en:
+  activerecord:
+    errors:
+      models:
+        funding_request:
+          attributes:
+            company_uen:
+              blank: "Please enter your company’s UEN"
+              invalid: "Please enter a valid UEN"

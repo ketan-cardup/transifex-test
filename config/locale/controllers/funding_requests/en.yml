@@ -1,0 +1,4 @@
+en:
+  funding_requests:
+    new:
+      alert: "You are not authorized to view this page."

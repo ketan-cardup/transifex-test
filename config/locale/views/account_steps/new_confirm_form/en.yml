@@ -1,0 +1,50 @@
+en:
+  account_steps:
+    new_confirm_form:
+      confirm_title: Review payment details
+      payment_charged_tooltip: Date on which your card will be charged. Dates have been adjusted based on public holidays and weekends
+      payment_due_date_tooltip: Date on which your payment will reach the recipient. Dates have been adjusted based on public holidays and weekends
+      payment_authorized_tooltip: Your card will be authorized after the Payment is reviewed and approved by the CardUp team
+      fee_discount_tooltip: You're currently enjoying a special fee from a marketing promotion.
+      cardup_fee_tooltip: CardUp fee
+      fee_link_text: fee
+      cardup_fee: To provide a secure and reliable service that enables you to use your card for this payment, we charge a %{fee_link}
+      verify_payment_otp: "You will get an OTP via SMS to verify your payment. Your card will be charged S$0.50, which will be automatically refunded in a few days."
+      large_payment_sms: "For your account security purposes, you will receive a payment confirmation link via SMS on the payment charge date requiring your action."
+      terms_of_service_link_text: "Terms of Service"
+      confirm_terms_of_service_text: "By clicking Create Payment, you accept that these payments cannot be refunded by CardUp directly (in accordance with the %{terms_link}). You can cancel/edit these payments from your dashboard before the payment charged date."
+      need_more_details: "We will reach out to you within one business day if we need more details to verify your payment."
+      x_border_no_direct_refund_checkbox_text: I accept that, in accordance with the Terms of Service, payments made via CardUp cannot be refunded by CardUp directly.
+      x_border_no_direct_refund_text: By clicking on "Confirm", you accept that, in accordance with our Terms of Service, payments made via CardUp can not be refunded from CardUp directly.
+      x_border_refund_request_text: For refund requests, please contact the recipient of your payment.
+      x_border_unverified_payee_text: Your card will be charged once you click on "Confirm". As this payment is to a recipient that requires verification, we may reach out to you within 1 business day if more details are needed.
+      x_border_charge_on_confirm_text: Your card will be charged once you click on "Confirm".
+      conversion_rate_snackbar_message: The currency conversion rate has been updated.
+      table:
+        title: All payments
+        header:
+          recipient: Recipient
+          amount_to_recipient: Amount to recipient
+          amount_to_send: Amount to send
+          amount: Amount
+          gst: GST
+          cardup_fee: CardUp Fee
+          total: Total
+          promo_code: Promo code
+          payment_authorized: Payment authorized
+          paymnent_charged: Payment Charged
+          payment_due: Payment Due
+          card: Card
+      fees:
+        processing: "Processing fee : %{fee}"
+        extend: "<br>Extend fee : %{fee}"
+        next_day: "<br>Next Day fee : %{fee}"
+      express_large_amount_help_text: "Important: As your payment is larger than %{amount} we will deliver them as %{number_of_transactions} separate transactions to your recipient. Please inform your recipients to ensure smooth reconciliation of your payment."
+      bulk_upload_help_text: "Clicking confirm will submit your payments for review by CardUp. We will get back to you within one business day to confirm if we can support your payments. You accept that, in accordance with our %{terms_link}, payments made via CardUp can not be refunded from CardUp directly. For refund requests, please contact the recipient of your payment. You can still cancel or amend these payments at any time prior to the payment charged date, from your CardUp dashboard."
+      repeat_transaction: This payment is treated as a repeat transaction as you have paid this payee earlier.
+      buttons:
+        approval: Send for approval
+        request: Submit a request
+        create: Create Payment
+      alt:
+        bank_card: Bank Card

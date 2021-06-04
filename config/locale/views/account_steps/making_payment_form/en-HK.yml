@@ -1,0 +1,44 @@
+en-HK:
+  account_steps:
+    making_payment_form:
+      payroll_advice:
+        instruction_block: Upload the payroll details file downloaded from JustLogin. We will send the funds to each employee based on the details on the file.
+      faq_link:
+        what_is_the_processing_fee:
+          business: "https://carduphk.zendesk.com/hc/en-us/articles/360033521912-What-is-the-processing-fee"
+          personal: "https://carduphk.zendesk.com/hc/en-us/articles/360033521912-What-is-the-processing-fee"
+        why_date_not_available: 'https://carduphk.zendesk.com/knowledge/articles/360033718271/en-us?brand_id=360002896131'
+      tax_ref_already_used_error:
+        income_tax: The payment reference should be your own HKID. Please %{contact_link} for any assistance.
+      verify_payment_link_text: "latest MPF Record and payroll system records"
+      verify_payment_payroll: "To help us verify your payment, upload your %{payroll_support_link} showing your employees’ names and salaries (.png, .jpg or .pdf)."
+      demand_note_link_text: "Demand Note"
+      verify_payment_income_tax: "To help us verify your payment, upload your up-to-date %{demand_note_link} showing your outstanding balance and date of outstanding balance (.png, .jpg or .pdf)."
+      duration:
+        payment_due_date:
+          due_date: Date on which your payment will reach the recipient
+      payment_reference:
+        education:
+          laboratree: Please enter receipt ID given by The Education LaboraTree. This will appear on their bank statement to help identify your payment.
+          canadian: Payment reference appears on the recipient’s bank statement to help them identify the payment. <b>Please enter either your Invoice number or Child's full name as the payment reference.</b> This cannot be more than 35 characters.
+          iss: Payment reference appears on the recipient's bank statement to help them identify the payment. <b>Please enter ISS Student ID number and student's full name. If you do not have a ISS Student ID number, enter your child's full name only.</b>
+          general: This will show on your recipient’s bank statement to help identify your payment (e.g. your child’s name). Max 35 characters.
+        insurance:
+          manulife: Please enter policy number and HKID. This will appear on your insurer's bank statement to help them identify your payment. The payment reference cannot be more than 35 characters.
+          aviva:  Please enter HKID number, policy number and policy holder's name. This will appear on your insurer's bank statement to help them identify your payment. The payment reference cannot be more than 35 characters.
+          general: Enter HKID, policy number and policy holder's name. This will show on your insurer’s bank statement to help identify your payment. Max 35 characters.
+        misc:
+          moovaz: Payment reference appears on the recipient’s bank statement to help them identify the payment. <b>Please enter your invoice number and name.</b> This cannot be more than 35 characters.
+        tax:
+          property: "Enter your 11 digit Shroff Account Number. This will show on IRD's bank statement to help identify your payment."
+          corporate_gst: "Enter your 11 digit Shroff Account Number. This will show on IRD's bank statement to help identify your payment."
+        car_loan: "This will show on your creditor’s bank statement to help identify your payment (e.g. your name and loan number). Max 35 characters."
+        supplier: "This will show on your recipient’s bank statement to help identify your payment (e.g. invoice number). Max 35 characters."
+        payroll: "This will show on your bank statement to help identify your payment. Max 35 characters."
+        stamp_duty: Enter your 12-digit Shroff Account Number. This will show on IRD's bank statement to help identify your payment.
+        general: This will show on your recipient’s bank statement to help identify your payment (e.g. your name, unit number or condo name). Max 35 characters.
+      tax:
+        label: Tax File Number
+        help_block:
+          business: Tax File Number is not editable as payment can only be made to a tax account tied to your own Company Registration Number (CRN)
+          personal: Tax File Number is not editable as payment can only be made to a tax account tied to your own HKID

@@ -1,0 +1,43 @@
+en:
+  account_steps:
+    payment_type:
+      title: Select Payment Type
+      info_alert_tag:
+        xb_details_submitted: "Thank you for submitting your details. We will verify your account in 1 business day so you can make payments to overseas recipients. Meanwhile, you can make payments to local recipients. Reach us at <a>%{support_email}</a> if you have any questions."
+        xb_verifying_details: "We are verifying your account for international payments. Meanwhile, you can make payments to local recipients. Reach us at <a>%{support_email}</a> if you have any questions."
+      error_alert_tag:
+        kyc_status_rejected: "Your account has unfortunately been locked due to issues in compliance verification, and you will not be able to set up payments for the time being. The CardUp team has reached out to you to discuss the matter, or will do so very shortly. If you have any questions, please email us at <a>%{support_email}</a>."
+        admin_acc_not_verified: "You can set up a payment only after your Company Admin has verified their email on CardUp"
+      verify_email_modal:
+        title: Verify your email
+        information_block: As you will receive important payment status updates via email, verify your email address before you start scheduling payments.
+        button: Get verification email
+        success:
+          email_sent_title: Email sent successfully
+          email_sent_information_block: "We have sent an email to %{email}"
+        error: Something went wrong. Please try again.
+      list:
+        business_list:
+          payment_type_tag:
+            supplier: 'Supplier Payments'
+            rent: 'Rent & Rental Deposit'
+            payroll: 'Payroll'
+            insurance: 'Insurance'
+            mcst: 'MCST Fees'
+            car_loan: 'Car Loans'
+            tax: 'Taxes & GST'
+            electricity: 'Electricity'
+            parking: 'Season Parking'
+            bulk_upload: 'Bulk Upload'
+        personal_list:
+          payment_type_tag:
+            insurance: 'Insurance'
+            rent: 'Rent & Rental Deposit'
+            mcst: 'Condo & MCST Fees'
+            education: 'Education'
+            car_loan: 'Car Loans'
+            misc: 'Miscellaneous Payments'
+            helper: 'Helper Salary'
+            tax: 'Taxes & Stamp Duty'
+            parking: 'Season Parking'
+            electricity: 'Electricity'

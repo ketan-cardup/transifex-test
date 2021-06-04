@@ -1,0 +1,10 @@
+en:
+  activerecord:
+    errors:
+      models:
+        user_document:
+          attributes:
+            document_file_name:
+              invalid_format: "We do not support special characters for filename. Please rename your file and upload it again."
+            document_content_type:
+              invalid_format: "Please upload a file in either png, jpg, or pdf format"

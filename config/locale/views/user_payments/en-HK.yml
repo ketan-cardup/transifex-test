@@ -1,0 +1,4 @@
+en:
+  user_payments:
+    edit:
+      verify_payment_supplier: To help us validate the bank details, please provide your payment advice e.g. an invoice (png. jpg. pdf.)

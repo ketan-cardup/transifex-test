@@ -1,0 +1,7 @@
+en-HK:
+  companies:
+    form:
+      uen_label: "Company Registration No."
+      search_registration_number_link: "https://www.icris.cr.gov.hk/csci/"
+      search_registration_number_link_text: "here"
+      search_registration_number_text: "Search for your CRN %{search_uen_link}."

@@ -1,0 +1,41 @@
+en-HK:
+  account_steps:
+    making_payment_to_js:
+      card_details:
+        add_new_card: Add new card
+        excluded_cards_b2c: ""
+        excluded_cards_b2b_general: "Please note that American Express corporate cards cannot be used."
+        amex_citi_excluded_cards_b2b: "Please note that Citibank or American Express cards cannot be used for %{service_type} payments."
+      recurring_schedule_first_payment: Date on which your first payment will reach the recipient
+      error_string_array:
+        error_1: "Unable to process your request. Please check the card details and try again."
+        error_2: "The expiry date for this card is in current/upcoming month, please use a different card"
+        error_3: "This card has unfortunately been declined. Reach out to your bank to resolve the issue, or use another card for this payment"
+        error_4: "Unable to process your request at this time. Please try again after some time or contact support for help."
+        error_5: "Your card was declined, please check and try again."
+        error_6: "This card is already stored in your profile. Please use a different card."
+        error_7: "The card details you've entered are incorrect, please check and try again."
+        error_8: "American Express Corporate Cards cannot be used. Please use a different card."
+        error_9: "American Express cards cannot be used for payroll, supplier and car loan payments. Please select a different card."
+        error_10: "Citibank cards cannot be used for car loan payments. Please select a different card."
+        error_11: "American Express cards cannot be used for car loan payments. Please select a different card."
+        error_12: "This card cannot be used. Please use a different card."
+      excluded_cards:
+        citi_amex_card_error: "Citibank or American Express cards cannot be used for %{service_type} payments. Please select a different card."
+        payroll_supplier_carloan: American Express cards cannot be used for payroll, supplier and car loan payments. Please select a different card.
+        unionpay:
+          connect: Unionpay Cards cannot be used. Please use a different card.
+          overseas: Paying to overseas recipients is not available for unionpay cards.
+          domestic: Paying to overseas recipients is only available for cards issued in Singapore.
+        amex_corporate: American Express Corporate Cards cannot be used. Please use a different card.
+        non_fidelity: This card cannot be used. Please use a different card.
+        extend: The Extend feature is only available for cards issued in Singapore.
+        extend_expiry: The expiry date for this card is in current/upcoming month, please use a different card.
+        gp: Please select the card which has been approved for reduced CardUp fee.
+      date:
+        month: MM
+        year: YYYY
+      next_day_amount_limit: "Maximum amount for Next Day payment is %{express_amount_limit}. To request for a higher amount for Next Day please write to: %{support_email}"
+      x_border_amount_limit: "The maximum amount per payment is %{xb_amount_limit}. If you need to send a larger amount, you can set up multiple payments or reach us for further assistance at %{support_email}"
+      fx_rate_nil: "FX rates are currently not available . We are working to fix this. Please reach out to %{support_email} if you need any help."
+      destination_amount_value: "1000.00"

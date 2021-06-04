@@ -1,0 +1,5 @@
+en-MY:
+  account_steps:
+    upload:
+      payee_level_upload_help_text:
+        payroll: "To help us verify your company’s bank details, upload your company’s bank account statement(.png, .jpg or .pdf)."

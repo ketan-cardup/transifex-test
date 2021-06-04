@@ -1,0 +1,8 @@
+en:
+  activerecord:
+    errors:
+      models:
+        payee:
+          attributes:
+            account_no:
+              invalid: "Only numbers are allowed for the account number field."

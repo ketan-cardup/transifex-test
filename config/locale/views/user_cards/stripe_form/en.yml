@@ -1,0 +1,16 @@
+en:
+  user_cards:
+    stripe_form:
+      labels:
+        card: Card
+        first_name: First Name
+        last_name: Last Name
+      encryption_text: Secure 256-bit SSL
+      add_card_cta: Add Card
+      edit_card_cta: Edit Card
+      excluded_cards: "Please note that American Express corporate cards cannot be used."
+      alt:
+        visa: Visa
+        mastercard: Mastercard
+        amex: American Express
+        unionpay: UnionPay

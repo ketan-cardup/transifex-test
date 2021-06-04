@@ -1,0 +1,9 @@
+en:
+  user_details:
+    verify_code:
+      enter_otp: "Please enter the OTP sent to you"
+      incorrect_otp: "OTP is incorrect"
+    send_phone_verification_code:
+      registered_number: "This number is already registered with us. Please use a different number."
+    twilio:
+      invalid_mobile_number: "Please enter a valid mobile number"

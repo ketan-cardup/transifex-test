@@ -1,0 +1,55 @@
+en:
+  confirmed_email: Haven't confirmed your email?
+  confirmed_email_collect: Verify your email address to start collecting payments
+  sending_otp:
+    send_otp: "We’ve sent a verification code to the mobile number %{telephone_number}"
+    resend_otp: "Resend a new code"
+  resend_email:
+    resend_email_link_text: "Resend email"
+    resend_email_text: "Email sent to %{email}. %{resend}"
+  verify_email:
+    verify_email_link_text: Meanwhile please verify your email. %{send_email_link} to get verification link.
+    click_here_text: "Click here"
+  search_uen:
+    search_uen_link_text: "here"
+    search_uen_text: "Search for your recipient’s UEN %{search_uen_link}."
+  t2_fast_not_supported: "Your recipient's bank does not support FAST service so payment will reach 3 business days after your card is charged."
+  fast_not_supported: "Your recipient's bank does not support FAST service so payment will reach 4 business days after your card is charged."
+  repeat_payment: "As previously agreed with you, this transaction is treated as a repeat payment to this recipient."
+  next_day_payment_fee: "This fee is applied to enable a next-day payment to your recipient. Discounts from promo codes will not be applied onto this fee."
+  doc_required_help_text: If you have made any edits to the payment amount above, please upload new supporting documents for us to successfully validate these changes.
+  credit_card_descriptor: "This will show on your credit card statement to help you identify this payment. Max 15 characters."
+  card_charge_date: "Date on which your card will be charged"
+  payment_credit_date: "Date on which your payment will reach your recipient"
+  cardup_fee: "To provide a secure and reliable service that enables you to use your card for this payment, we charge a fee"
+  refer:
+    refer_and_save:
+      titles:
+        title: Refer your contacts and save more %{currency_denotation}
+        subtitle: Want to save more?
+      labels:
+        code: My Referral Code
+      buttons:
+        facebook: Facebook
+        twitter: Twitter
+        whatsapp: WhatsApp
+        mail: Email
+        copy_code: Copy Code
+        copied_code: Copied
+        social_share_button_tag: REFER A FRIEND
+      invite_save_text: Invite your friends and save on next your payment
+      refer_save_text: Refer <strong>20 users</strong> and save up to
+      links:
+        tc_text: Terms & Conditions apply
+        learn_more_text: Learn more
+      alt:
+        refer: "Refer"
+    raf_rab:
+      titles:
+        raf: Refer a Friend
+        rab: Refer a Business
+      description:
+        raf: Give S$%{referral_discount} and you save S$%{referral_reward_discount}
+        rab: Give S$%{referral_discount} and you save S$%{referral_reward_discount}
+  dropdown_placeholder:
+    select: 'Select'

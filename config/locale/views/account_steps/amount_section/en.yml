@@ -1,0 +1,9 @@
+en:
+  account_steps:
+    amount_section:
+      labels:
+        destination_amount: "Amount to recipient"
+        amount: "Amount"
+        income_tax: "Amount <br/ > (Outstanding balance)"
+        international_payee: "Amount you send"
+      ensure_amount_matches_outstanding: "Ensure the <b style='color: #4f455e;'>total tax payment amount scheduled on CardUp</b> matches the outstanding balance in your latest Statement of Account, otherwise your payment will be rejected"

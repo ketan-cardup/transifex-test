@@ -1,0 +1,8 @@
+en-MY:
+  receivables:
+    details_form:
+      tax_label: "SST no."
+      tax_field_placeholder: "SST Number"
+    review_form:
+      tax_label: "SST no."
+      tax_field_placeholder: "SST Number"

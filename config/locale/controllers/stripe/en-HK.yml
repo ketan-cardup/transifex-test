@@ -1,0 +1,5 @@
+en-HK:
+  stripe:
+    user_cards:
+      create:
+        unsupported_cards: "American Express Cards cannot be used. Please use a different card."
